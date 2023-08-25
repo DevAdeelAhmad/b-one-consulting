@@ -8,14 +8,16 @@ import Services from "@/components/Services";
 
 export default function Home() {
   return (
-   <>
-   <Intro/>
-   <About/>
-   <Services/>
-   <Projects/>
-   <Clients/>
-   <Contact/>
-   <Footer/>
-   </>
-  )
+    <>
+      <main>
+        <Intro />
+        <About />
+        <Services />
+        <Projects />
+        <Clients />
+        <Contact />
+        <Footer />
+      </main>
+    </>
+  );
 }
