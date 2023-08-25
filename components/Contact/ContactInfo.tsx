@@ -1,9 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const ContactInfo = () => {
   return (
-    <div>ContactInfo</div>
-  )
-}
+    <>
+      <section className="w-screen p-10 xl:px-32 bg-[#101010]">
+        {/* div 1 */}
+        <div className=" flex ">
 
-export default ContactInfo
+
+
+        </div>
+        {/* div 2 */}
+        <div className=""></div>
+      </section>
+    </>
+  );
+};
+
+export default ContactInfo;
