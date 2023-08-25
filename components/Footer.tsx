@@ -30,8 +30,12 @@ const Footer = () => {
           <div className="col-span-3">
             <ul className="text-textPrimary">
               <li className="text-textSecondary">Connect</li>
-              <li className="inline"><Link href='https://www.facebook.com'>Fb</Link></li>
-              <li className="inline px-4"><Link href='https://www.instagram.com'>Ig</Link></li>
+              <li className="inline">
+                <Link href="https://www.facebook.com">Fb</Link>
+              </li>
+              <li className="inline px-4">
+                <Link href="https://www.instagram.com">Ig</Link>
+              </li>
             </ul>
           </div>
         </div>
