@@ -5,7 +5,7 @@ import EmailForm from './Contact/EmailForm'
 const Contact = () => {
   return (
     <>
-    <main>
+    <main className=''>
       <ContactInfo/>
       <EmailForm/>
     </main>

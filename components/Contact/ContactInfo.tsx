@@ -1,18 +1,10 @@
 import React from "react";
+import Link from "next/link";
 
 const ContactInfo = () => {
   return (
     <>
-      <section className="w-screen p-10 xl:px-32 bg-[#101010]">
-        {/* div 1 */}
-        <div className=" flex ">
-
-
-
-        </div>
-        {/* div 2 */}
-        <div className=""></div>
-      </section>
+      <section></section>
     </>
   );
 };
