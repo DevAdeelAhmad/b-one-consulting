@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="w-screen text-sm py-10 md:px-12 lg:xl:px-14 bg-[#101010]">
+      <section className="w-screen hidden md:grid lg:xl:grid text-sm py-10 md:px-12 lg:xl:px-14 bg-[#101010]">
         <div className="px-8 md:lg:xl:px-0 grid grid-cols-1 grid-rows-4 md:grid-cols-12 md:grid-rows-1 lg:xl:grid-cols-12 lg:xl:grid-rows-1 gap-4">
           <div className="col-span-3">
             <ul className="text-textPrimary">
