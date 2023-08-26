@@ -4,4 +4,6 @@
 
 .clientbg{
     background: url(../assets/ClientBg.svg);
+    background-repeat: no-repeat;
+    background-position: top top;
 }
