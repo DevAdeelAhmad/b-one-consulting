@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <>
       <main>
-        {/* <Intro />
+        {/* <Intro /> */}
         <About />
-        <Services />
-        <Projects />*/}
+        {/* <Services /> */}
+        {/* <Projects /> */}
         <Clients />
         <Contact />
         <Footer />

@@ -9,3 +9,10 @@
     background-repeat: no-repeat;
     background-position: top top;
 }
+.about4{
+    background: url(../assets/bg//About4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top top;
+
+}
