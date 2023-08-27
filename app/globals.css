@@ -2,17 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.clientbg{
+.clientbg {
+  background: url(../assets/ClientBg.svg);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: top top;
+}
+.about4 {
+  background: url(../assets/bg/About4.svg);
+  background-size: cover;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .about4 {
+    background: url(../assets/bg/About4.svg);
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .clientbg {
     background: url(../assets/ClientBg.svg);
     background-size: cover;
     background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
-    background-position: top top;
-}
-.about4{
-    background: url(../assets/bg//About4.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top top;
-
+    background-position: center center;
+  }
 }
