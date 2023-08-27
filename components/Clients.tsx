@@ -3,15 +3,9 @@ import React from "react";
 import Airfrance from "../assets/clients/Airfrance.svg";
 import AS24 from "../assets/clients/AS24.svg";
 import kesato from "../assets/clients/kesato.svg";
-<<<<<<< HEAD
-import LCL from "../assets/clients/LCL.svg";
-import Mastercard from "../assets/clients/Mastercard.svg";
-import TotalEne from "../assets/clients/TotalEne.svg";
-=======
 import lcl1 from "../assets/clients/lcl1.svg";
 import master from "../assets/clients/master.svg";
 import totalene from "../assets/clients/totalene.svg";
->>>>>>> 2bbcf580ab4b0a956e8340d8942933cc820530cf
 
 import Gsuit from "../assets/partners/G-suite.svg";
 import fb from "../assets/partners/fb.svg";
