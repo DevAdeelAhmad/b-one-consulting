@@ -4,10 +4,10 @@ import Link from "next/link";
 const ContactInfo = () => {
   return (
     <>
-      <section className="w-full text-textPrimary text-sm py-6 xl:lg:md:px-6 bg-[#101010]">
-        <div className="px-8 grid grid-cols-4 grid-rows-6 gap-5 xl:lg:md:grid-cols-12 xl:lg:md:grid-rows-2">
+      <section className="w-full px-12 text-textPrimary text-sm py-6 bg-[#101010]">
+        <div className="grid grid-cols-4 grid-rows-6 md:grid-cols-12 md:grid-rows-2 gap-5">
           {/* First Column */}
-          <div className="col-span-4 row-span-2 col-start-1 xl:lg:md:col-start-4 xl:lg:md:col-span-3 xl:lg:md:row-span-2 gap-5 md:gap-14 xl:lg:gap-28">
+          <div className="grid gap-10 col-span-4 row-span-2 col-start-1 md:col-start-4 md:col-span-3 md:row-span-2">
             <ul>
               <li className="text-textSecondary">Write us</li>
               <li>contact@b1-consulting.com</li>
@@ -20,7 +20,7 @@ const ContactInfo = () => {
           </div>
 
           {/* Second Column */}
-          <div className="col-span-4 row-span-2 col-start-1 xl:lg:md:col-start-4 xl:lg:md:col-span-3 xl:lg:md:row-span-2 gap-5 md:gap-14 xl:lg:gap-28">
+          <div className="grid gap-10 col-span-4 row-span-2 col-start-1 md:col-start-7 md:col-span-3 md:row-span-2">
             <ul>
               <li className="text-textSecondary">Call us</li>
               <li>+62 6786909</li>
@@ -33,7 +33,7 @@ const ContactInfo = () => {
           </div>
 
           {/* Third Column */}
-          <div className="col-span-4 row-span-2 col-start-1 xl:lg:md:col-start-4 xl:lg:md:col-span-3 xl:lg:md:row-span-2 gap-5 md:gap-14 xl:lg:gap-28">
+          <div className="grid gap-10 col-span-4 row-span-2 col-start-1 md:col-start-10 md:col-span-3 md:row-span-2">
             <ul>
               <li className="text-textSecondary">Collaborate with us</li>
               <li className="italic text-textSecondary">

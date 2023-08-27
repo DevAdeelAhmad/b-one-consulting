@@ -5,7 +5,7 @@ import EmailForm from './Contact/EmailForm'
 const Contact = () => {
   return (
     <>
-    <main className=''>
+    <main className='flex flex-col-reverse md:flex-col'>
       <ContactInfo/>
       <EmailForm/>
     </main>
