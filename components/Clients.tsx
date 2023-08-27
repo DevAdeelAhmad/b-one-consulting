@@ -18,14 +18,12 @@ const Clients = () => {
   return (
     <section className="w-full clientbg text-textPrimary text-sm py-32 xl:py-52 px-12">
       <div className="w-full grid grid-cols-4 grid-rows-10 gap-y-5 md:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
-        <div
-          className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-11 md:row-span-1
-        inline-grid md:grid-cols-12 md:grid-rows-1"
-        >
-          <h1 className="col-span-4 md:col-span-7 md:row-span-1 text-4xl font-normal uppercase">
+        <div className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1
+        inline-grid md:grid-cols-12 md:grid-rows-1">
+          <h1 className="col-span-4 md:col-span-7 lg:col-span-6 md:row-span-1 text-4xl font-normal uppercase">
             Clients & Partners
           </h1>
-          <p className="col-span-4 md:col-span-5 md:row-span-1 text-justify text-xs mt-2 font-extralight">
+          <p className="col-span-4 md:col-span-5 lg:col-span-4 md:row-span-1 text-justify text-xs mt-2 font-extralight">
             The customer remains at the center of our concerns, becoming an
             actor of his success is our goal.
           </p>
@@ -36,7 +34,7 @@ const Clients = () => {
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
-          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-12 md:grid-cols-6 md:grid-rows-1 gap-10">
+          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-6 md:grid-rows-1 gap-10">
             <div>
               <Image
                 className="mt-6"
@@ -87,7 +85,7 @@ const Clients = () => {
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
-          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-12 md:grid-cols-6 md:grid-rows-1 gap-10">
+          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-6 md:grid-rows-1 gap-10">
             <div>
               <Image
                 className="row-start-1 mt-3"
