@@ -38,7 +38,7 @@ const EmailForm = () => {
             </p>
           </div>
 
-          <div className="col-span-4 md:col-span-8 inline-grid grid-cols-4 md:grid-cols-12 grid-flow-row gap-10">
+          <div className="col-span-4 md:col-span-8 inline-grid grid-cols-4 md:grid-cols-12 grid-flow-row gap-10-">
             <div className="col-span-4 md:col-span-6 col-start-1 flex flex-col gap-10">
               <div className="fullNameField flex flex-col">
                 <label
