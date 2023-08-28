@@ -16,12 +16,62 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+.about3 {
+  background: url(../assets/bg/About3.svg);
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 640px) {
   .about4 {
     background-position: center center;
   }
+  .about3 {
+    background-position: center center;
+  }
+  .about2 {
+    background: none;
+  }
+  .about-3 {
+    background: url(../assets/bg/About3.svg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .about2half {
+    background: url(../assets/bg/About2Half.svg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+  }
   .clientbg {
     background-position: center center;
+  }
+}
+@media only screen and (min-width: 641px) {
+  .about3 {
+    background: url(../assets/bg/About3.svg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 70%;
+   
+  }
+  .about2 {
+    background: url(../assets/bg/About2.svg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 60%;
+  }
+  .about-3 {
+    background: black;
+  }
+  .about2half {
+    background: black;
   }
 }
