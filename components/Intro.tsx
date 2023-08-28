@@ -38,18 +38,19 @@ const Intro = () => {
           </div>
         </div>
 
-        <div className="col-span-4 row-span-3 md:col-span-12 inline-grid grid-flow-row grid-cols-4 md:grid-cols-12 gap-6 text-center py-40">
-          <div className="col-span-4 col-start-3 row-span-1 row-start-1">
-            <h1 className="text-5xl uppercase text-textPrimary">
+        <div className="col-span-10 row-span-3 md:col-span-12 inline-grid grid-flow-row grid-cols-4
+        md:grid-cols-12 gap-6 text-center py-40">
+          <div className="col-span-4 md:col-start-3 row-span-1 row-start-1">
+            <h1 className="text-4xl text-left md:text-5xl uppercase text-textPrimary">
               Together
             </h1>
           </div>
-          <div className="col-span-7 col-start-5 row-span-1 row-start-2">
-            <h1 className="text-5xl uppercase text-textPrimary">
-              Let's Reach the goal
+          <div className="col-span-10 md:col-span-7 md:col-start-5 row-span-1 row-start-2">
+            <h1 className="text-4xl md:text-5xl text-left uppercase text-textPrimary">
+              Let's Reach your goals!
             </h1>
           </div>
-          <div className="col-span-4 col-start-6 row-span-1 row-start-3">
+          <div className="col-span-5 text-left md:text-right md:col-start-5 row-span-1 row-start-3">
             <p className="text-xs uppercase text-textPrimary">
               Quanta autem vis amicitiae sit, ex hoc intellegi maxime
             </p>

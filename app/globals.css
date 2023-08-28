@@ -5,28 +5,28 @@
 .clientbg {
   background: url(../assets/bg/ClientBg.svg);
   background-size: cover;
-  background-color: rgb(0, 0, 0);
+  background-color: #101010;
   background-repeat: no-repeat;
   background-position: top top;
 }
 .introbg{
   background: url(../assets/bg/IntroBg.svg);
   background-size: cover;
-  background-color: rgb(0, 0, 0);
+  background-color: #101010;
   background-repeat: no-repeat;
-  background-position: top top;
+  background-position: bottom center;
 }
 .about4 {
   background: url(../assets/bg/About4.svg);
   background-size: cover;
-  background-color: rgb(0, 0, 0);
+  background-color: #101010;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .about3 {
   background: url(../assets/bg/About3.svg);
   background-size: cover;
-  background-color: rgb(0, 0, 0);
+  background-color: #101010;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -39,21 +39,18 @@
   .about3 {
     background-position: center center;
   }
-  /* .about1 {
-    background-position: center center;
-  } */
   .about2 {
     background: none;
   }
   .about-3 {
     background: url(../assets/bg/About3.svg);
-    background-color: rgb(0, 0, 0);
+    background-color: #101010;
     background-repeat: no-repeat;
     background-position: center center;
   }
   .about-1 {
     background: url(../assets/bg/About1.svg);
-    background-color: rgb(0, 0, 0);
+    background-color: #101010;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 120%;
@@ -61,7 +58,7 @@
   }
   .about2half {
     background: url(../assets/bg/About2Half.svg);
-    background-color: rgb(0, 0, 0);
+    background-color: #101010;
     background-repeat: no-repeat;
     background-position: right;
     background-size: 30%;
@@ -73,33 +70,25 @@
 @media only screen and (min-width: 641px) {
   .about3 {
     background: url(../assets/bg/About3.svg);
-    background-color: rgb(0, 0, 0);
+    background-color: #101010;
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 70%;
   }
-  /* .about1 {
-    background: url(../assets/bg/About3.svg);
-    background-color: rgb(0, 0, 0);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 70%;
-   
-  } */
   .about2 {
     background: url(../assets/bg/About2.svg);
-    background-color: rgb(0, 0, 0);
+    background-color: #101010;
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 60%;
   }
   .about-3 {
-    background: black;
+    background: #101010;
   }
   .about-1 {
-    background: black;
+    background: #101010;
   }
   .about2half {
-    background: black;
+    background: #101010;
   }
 }
