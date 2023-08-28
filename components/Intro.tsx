@@ -47,7 +47,7 @@ const Intro = () => {
           </div>
           <div className="col-span-10 md:col-span-7 md:col-start-5 row-span-1 row-start-2">
             <h1 className="text-4xl md:text-5xl text-left uppercase text-textPrimary">
-              Let's Reach your goals!
+              {`Let's Reach your goals!`}
             </h1>
           </div>
           <div className="col-span-5 text-left md:text-right md:col-start-5 row-span-1 row-start-3">

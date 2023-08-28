@@ -1,18 +1,18 @@
 import Image from "next/image";
 import React from "react";
-import Airfrance from "../assets/clients/Airfrance.svg";
-import AS24 from "../assets/clients/AS24.svg";
-import kesato from "../assets/clients/kesato.svg";
-import lcl1 from "../assets/clients/lcl1.svg";
-import master from "../assets/clients/master.svg";
-import totalene from "../assets/clients/totalene.svg";
+import Airfrance from "@/assets/clients/Airfrance.svg";
+import AS24 from "@/assets/clients/AS24.svg";
+import kesato from "@/assets/clients/kesato.svg";
+import lcl1 from "@/assets/clients/lcl1.svg";
+import master from "@/assets/clients/master.svg";
+import totalene from "@/assets/clients/totalene.svg";
 
-import Gsuit from "../assets/partners/G-suite.svg";
-import fb from "../assets/partners/fb.svg";
-import figma from "../assets/partners/figma.svg";
-import google from "../assets/partners/Google.svg";
-import miro from "../assets/partners/miro.svg";
-import roadmunk from "../assets/partners/roadmunk.svg";
+import Gsuit from "@/assets/partners/G-suite.svg";
+import fb from "@/assets/partners/fb.svg";
+import figma from "@/assets/partners/figma.svg";
+import google from "@/assets/partners/Google.svg";
+import miro from "@/assets/partners/miro.svg";
+import roadmunk from "@/assets/partners/roadmunk.svg";
 
 const Clients = () => {
   return (
