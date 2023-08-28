@@ -2,45 +2,43 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="w-full bg-black text-textPrimary text-sm py-32 xl:py-52 px-12">
-      <div className="w-full grid grid-cols-4 grid-rows-1 md:gap-y-16 md:grid-cols-12 md:grid-flow-row">
+    <section className="w-full bg-black text-textPrimary text-sm pb-10 pt-4 px-12">
+      <div className="w-full grid grid-cols-4 grid-rows-1 md:gap-y-16 md:grid-cols-12 md:grid-flow-row pb-20">
         <div className="col-start-1 md:col-start-2 col-span-3 ">
-          <h2 className=" text-2xl font-bold text-white">360º Services</h2>
+          <h2 className=" text-4xl text-white font-light uppercase">360º Services</h2>
         </div>
         {/* card */}
         {/* card1 */}
 
         <div className="col-start-1 md:col-start-3 col-span-2  inline-grid grid-rows-2 border-l border-solid border-gray-200 mt-10">
           <div className="row-start-2">
-            <h1 className="text-5xl text-white pl-3 pt-5 ">01</h1>
-            <p className="text-2xs text-white pl-3 pt-3 ">
+            <h1 className="text-7xl text-white pl-3 pt-5 ">01</h1>
+            <p className="text-lg text-white pl-3 pt-9 ">
               Audit &<br /> consulting Services
             </p>
           </div>
         </div>
         {/* card2 */}
-        <div className="col-start-3 md:col-start-5 col-span-2 inline-grid grid-rows-2 border-l h-52 border-solid border-gray-200 mt-20">
+        <div className="col-start-3 md:col-start-5 col-span-2 inline-grid grid-rows-2 border-l border-solid border-gray-200 mt-10">
           <div className="row-start-2">
-            <h1 className="text-5xl text-white pl-3 ">02</h1>
-            <p className="text-2xs text-white pl-3 pt-4">Digital Solution</p>
+            <h1 className="text-7xl text-white pl-3 pt-4">02</h1>
+            <p className="text-lg text-white pl-3 pt-16">Digital Solution</p>
           </div>
         </div>
         {/* card3 */}
 
-        <div className="col-start-1 md:col-start-7 col-span-2 inline-grid grid-rows-2 mt-20 border-l border-solid border-gray-200  ">
+        <div className="col-start-1 md:col-start-7 col-span-2 inline-grid grid-rows-2  border-l border-solid border-gray-200 mt-10 ">
           <div className="row-start-2">
-            <h1 className="text-5xl text-white pl-3">03</h1>
-            <p className="text-2xs text-white pl-3 pt-4">Data Solution</p>
+            <h1 className="text-7xl text-white pl-3 pt-4">03</h1>
+            <p className="text-lg text-white pl-3 pt-16">Data Solution</p>
           </div>
         </div>
         {/* card4 */}
 
-        <div className="col-start-3 md:col-start-9 col-span-2 inline-grid grid-rows-2 mt-20 border-l border-solid border-gray-200  ">
+        <div className="col-start-3 md:col-start-9 col-span-2 inline-grid grid-rows-2  border-l border-solid border-gray-200  mt-10">
           <div className="row-start-2">
-            <h1 className="text-5xl text-white pl-3">04</h1>
-            <p className="text-2xs text-white pl-3 pt-4">
-              Marketing & Branding
-            </p>
+            <h1 className="text-7xl text-white pl-3 pt-4">04</h1>
+            <p className="text-lg text-white pl-3 pt-9 xl:pt-16">Marketing & Branding</p>
           </div>
         </div>
         {/* <div className="flex flex-row mt-20">
