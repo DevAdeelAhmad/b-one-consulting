@@ -8,8 +8,8 @@ import master from "@/assets/clients/master.svg";
 import totalene from "@/assets/clients/totalene.svg";
 
 import Gsuit from "@/assets/partners/G-suite.svg";
-import fb from "@/assets/partners/fb.svg";
-import figma from "@/assets/partners/figma.svg";
+import fb from "@/assets/partners/FB.svg";
+import figma from "@/assets/partners/Figma.svg";
 import google from "@/assets/partners/Google.svg";
 import miro from "@/assets/partners/miro.svg";
 import roadmunk from "@/assets/partners/roadmunk.svg";
