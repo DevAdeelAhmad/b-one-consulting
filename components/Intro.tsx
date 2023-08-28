@@ -6,8 +6,8 @@ import hamIcon from "@/assets/hamburgerMenu.svg";
 
 const Intro = () => {
   return (
-    <section className="w-full introbg h-[100vh] px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]">
-      <div className="grid grid-cols-4 md:grid-cols-12">
+    <section className="w-full introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]">
+      <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">
         <div className="col-span-4 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
             <Image
@@ -38,12 +38,12 @@ const Intro = () => {
           className="col-span-10 row-span-3 py-64 md:col-span-12 inline-grid grid-flow-row grid-cols-4
         md:grid-cols-12 gap-1 md:gap-6 md:py-40 px-6 md:px-0"
         >
-          <div className="col-span-4 md:col-start-2 lg:col-start-3 xl:col-start-4 row-span-1 row-start-1">
+          <div className="herotext col-span-4 md:col-start-2 lg:col-start-3 xl:col-start-3 row-span-1 row-start-1">
             <h1 className="text-4xl text-left md:text-5xl uppercase text-textPrimary">
               Together
             </h1>
           </div>
-          <div className="col-span-10 md:col-span-7 md:col-start-5 xl:col-start-6 row-span-1 row-start-2">
+          <div className="herotext col-span-10 md:col-span-7 md:col-start-5 xl:col-start-5 row-span-1 row-start-2">
             <h1 className="text-4xl md:text-5xl text-left uppercase text-textPrimary">
               {`Let's Reach your goals!`}
             </h1>

@@ -8,6 +8,7 @@
   background-color: #101010;
   background-repeat: no-repeat;
   background-position: top top;
+  background-attachment: fixed;
 }
 .introbg {
   background: url(../assets/bg/IntroBg.svg);
@@ -15,6 +16,7 @@
   background-color: #101010;
   background-repeat: no-repeat;
   background-position: bottom center;
+  background-attachment: fixed;
 }
 .about4 {
   background: url(../assets/bg/About4.svg);
@@ -22,6 +24,7 @@
   background-color: #101010;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 .about3 {
   background: url(../assets/bg/About3.svg);
@@ -32,6 +35,9 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .introbg {
+    background-position: top center;
+  }
   .about4 {
     background-position: center center;
   }
@@ -96,5 +102,11 @@
   }
   .about2half {
     background: #101010;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .herotext {
+    margin-left: 150px;
   }
 }
