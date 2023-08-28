@@ -8,6 +8,7 @@
   background-color: #101010;
   background-repeat: no-repeat;
   background-position: top top;
+  background-attachment: fixed;
 }
 .introbg {
   background: url(../assets/bg/IntroBg.svg);
@@ -23,6 +24,7 @@
   background-color: #101010;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
 }
 .about3 {
   background: url(../assets/bg/About3.svg);
