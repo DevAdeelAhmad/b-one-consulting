@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   background-position: top top;
 }
-.introbg{
+.introbg {
   background: url(../assets/bg/IntroBg.svg);
   background-size: cover;
   background-color: #101010;
@@ -31,13 +31,15 @@
   background-position: center center;
 }
 
-
 @media only screen and (max-width: 640px) {
   .about4 {
     background-position: center center;
   }
   .about3 {
     background-position: center center;
+  }
+  .about1 {
+    background: #101010;
   }
   .about2 {
     background: none;
@@ -85,8 +87,12 @@
   .about-3 {
     background: #101010;
   }
-  .about-1 {
-    background: #101010;
+  .about1 {
+    background: url(../assets/bg/About1Half.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 100%;
   }
   .about2half {
     background: #101010;
