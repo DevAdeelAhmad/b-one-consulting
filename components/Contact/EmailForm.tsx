@@ -17,13 +17,13 @@ const EmailForm = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="inline w-5 h-5"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25"
                 />
               </svg>
@@ -110,6 +110,7 @@ const EmailForm = () => {
                   message
                 </label>
                 <input
+                  id="message"
                   type="text"
                   className="w-[82vw] md:w-[56vw] h-56 rounded-lg bg-black"
                 />
