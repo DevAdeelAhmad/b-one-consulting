@@ -16,7 +16,7 @@ import roadmunk from "@/assets/partners/roadmunk.svg";
 
 const Clients = () => {
   return (
-    <section id="Clients" className="w-full clientbg text-textPrimary text-sm py-32 xl:py-52 px-12">
+    <section id="Clients & Partners" className="w-full clientbg text-textPrimary text-sm py-32 xl:py-52 px-12">
       <div className="w-full grid grid-cols-4 grid-rows-10 gap-y-5 md:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
         <div
           className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1

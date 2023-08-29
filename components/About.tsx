@@ -7,7 +7,7 @@ import About4 from "./About/About4";
 const About = () => {
   return (
     <>
-      <main id="AboutUs">
+      <main id="About Us">
         <About1 />
         <About2 />
         <About3 />

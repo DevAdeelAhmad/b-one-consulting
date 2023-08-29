@@ -7,7 +7,7 @@ import hamIcon from "@/assets/hamburgerMenu.svg";
 const Intro = () => {
   return (
     <section
-      id="Intro"
+      id="Introduction"
       className="w-full introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]"
     >
       <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">

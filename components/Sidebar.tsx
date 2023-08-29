@@ -8,11 +8,11 @@ const Sidebar = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
 
   const sections = [
-    "Intro",
-    "AboutUs",
+    "Introduction",
+    "About Us",
     "Services",
     "Projects",
-    "Clients",
+    "Clients & Partners",
     "Contact",
   ];
 
@@ -27,20 +27,20 @@ const Sidebar = () => {
     }
   };
   return (
-    <nav className="fixed top-20 right-0 z-10 p-4">
+    <nav className="fixed top-20 right-10 z-10 p-4">
       <ul className="flex flex-col items-end space-y-4">
         {sections.map((section) => (
           <li
             key={section}
             className={`${
               activeSection === section ? "text-[#474dff]" : "text-[#22278d]"
-            } hover:text-textPrimary text-sm transition cursor-pointer`}
+            } hover:text-[#474dff] text-sm transition cursor-pointer`}
             onClick={() => handleSectionClick(section)}
           >
-            <div
-              className={`w-6 h-[1px] absolute bg-blue-500 transition-all`}
-            />
-            {section}
+            <div className="flex items-center ">
+              <span className="mr-2">{section}</span>
+              <div className={`${activeSection === section ? "h-[2.5px]" : "h-[1px]"} flex-grow w-6 bg-blue-500`} />
+            </div>
           </li>
         ))}
       </ul>
