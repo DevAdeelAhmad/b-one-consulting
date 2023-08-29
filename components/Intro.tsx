@@ -62,7 +62,7 @@ const Intro = () => {
 
         <div className="col-span-4 hidden lg:inline-grid row-span-1 md:col-span-11  grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
-            <Link href="#contact">
+            <Link href="#About Us">
               <p className="text-textPrimary text-xs inline">
                 Scroll for more&emsp;
                 <svg

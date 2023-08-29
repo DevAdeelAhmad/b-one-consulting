@@ -20,6 +20,7 @@ const Project1 = () => {
           </p>
         </div>
       </div>
+      
     </section>
   );
 };
