@@ -6,17 +6,22 @@ import hamIcon from "@/assets/hamburgerMenu.svg";
 
 const Intro = () => {
   return (
-    <section className="w-full introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]">
+    <section
+      id="Intro"
+      className="w-full introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]"
+    >
       <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">
-        <div className="col-span-4 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
+        <div className="col-span-4 fixed top-5 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
-            <Image
-              className="pt-2 md:pt-0"
-              src={logo}
-              width={150}
-              height={60}
-              alt="B-one Consulting"
-            />
+            <Link href='/'>
+              <Image
+                className="pt-2 md:pt-0"
+                src={logo}
+                width={150}
+                height={60}
+                alt="B-one Consulting"
+              />
+            </Link>
           </div>
 
           <div className="col-start-3 md:col-start-11 xl:col-start-11 col-span-1 lg:ml-10">
