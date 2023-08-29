@@ -103,3 +103,8 @@
     margin-left: 150px;
   }
 }
+@media only screen and (min-width: 1650px) {
+  .fixedNav {
+    right: -50px;
+  }
+}
