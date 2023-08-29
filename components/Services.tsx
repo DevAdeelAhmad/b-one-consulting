@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section className="w-full bg-black text-textPrimary text-sm pb-10 pt-4 px-12">
+    <section id="Services" className="w-full bg-black text-textPrimary text-sm pb-10 pt-4 px-12">
       <div className="w-full grid grid-cols-4 grid-rows-1 md:gap-y-16 md:grid-cols-12 md:grid-flow-row pb-20">
         <div className="col-start-1 md:col-start-2 col-span-3 ">
           <h2 className=" text-3xl text-white font-light uppercase">

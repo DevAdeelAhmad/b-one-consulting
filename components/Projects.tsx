@@ -6,7 +6,7 @@ import Project3 from './Projects/Project3'
 const Projects = () => {
   return (
     <>
-    <main>
+    <main id='Projects'>
       <Project1/>
       <Project2/>
       <Project3/>
