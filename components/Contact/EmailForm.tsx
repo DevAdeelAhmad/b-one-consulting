@@ -49,7 +49,7 @@ const EmailForm = () => {
                 </label>
                 <input
                   type="text"
-                  className="border-b-textSecondary h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
+                  className="border-b-textSecondary focus:outline-none  h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
                   name="fullName"
                   id="fullName"
                 />
@@ -64,7 +64,7 @@ const EmailForm = () => {
                 </label>
                 <input
                   type="text"
-                  className="border-b-textSecondary h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
+                  className="border-b-textSecondary focus:outline-none h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
                   name="email"
                   id="email"
                 />
@@ -81,7 +81,7 @@ const EmailForm = () => {
                 </label>
                 <input
                   type="text"
-                  className="border-b-textSecondary h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
+                  className="border-b-textSecondary focus:outline-none h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
                   name="company"
                   id="company"
                 />
@@ -95,7 +95,7 @@ const EmailForm = () => {
                 </label>
                 <input
                   type="text"
-                  className="border-b-textSecondary h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
+                  className="border-b-textSecondary focus:outline-none h-10 border-b-2 bg-transparent border-t-0 border-l-0 border-r-0"
                   name="phoneNumber"
                   id="phoneNumber"
                 />
@@ -112,7 +112,7 @@ const EmailForm = () => {
                 <input
                   id="message"
                   type="text"
-                  className="w-[82vw] md:w-[56vw] h-56 rounded-lg bg-black"
+                  className="w-[82vw] focus:outline-none md:w-[56vw] h-56 rounded-lg bg-black"
                 />
               </div>
             </div>
