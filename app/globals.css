@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .clientbg {
   background: url(../assets/bg/ClientBg.svg);
   background-size: cover;
@@ -19,7 +20,7 @@
   background-attachment: fixed;
 }
 .about4 {
-  background: url(../assets/bg/About4.svg);
+  background: url(../assets/bg/about4.svg);
   background-size: cover;
   background-color: #101010;
   background-repeat: no-repeat;
@@ -34,15 +35,17 @@
   background-position: center center;
 }
 
-.about1 {
-  background: url(../assets/bg/aboutone.png);
-  background-color: #101010;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 90%;
-}
+
+
 
 @media only screen and (max-width: 640px) {
+  .about-1 {
+    background: url(../assets/bg/About1.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40%;
+  }
   .introbg {
     background-position: top center;
   }
@@ -75,6 +78,9 @@
   }
 }
 @media only screen and (min-width: 641px) {
+  .about-1{
+    background: #101010;
+  }
   .about3 {
     background: url(../assets/bg/About3.svg);
     background-color: #101010;
@@ -82,7 +88,13 @@
     background-position: left center;
     background-size: 70%;
   }
-
+  .about1 {
+    background: url(../assets/bg/About1.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 90%;
+  }
   .about2 {
     background: url(../assets/bg/About2.svg);
     background-color: #101010;
@@ -102,9 +114,36 @@
   .herotext {
     margin-left: 150px;
   }
-}
-@media only screen and (min-width: 1650px) {
   .fixedNav {
     right: -50px;
+  }
+  .about4xl{
+    margin-left: 90px !important;
+  }
+}
+
+.moving-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.moving-banner h1 {
+  margin: 0;
+  white-space: nowrap;
+  animation: moveBanner 20s linear infinite;
+  -webkit-text-stroke: 0.5px #F1F1F1 !important;
+  color: black;
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
   }
 }
