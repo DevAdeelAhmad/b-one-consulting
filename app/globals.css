@@ -34,6 +34,14 @@
   background-position: center center;
 }
 
+.about1 {
+  background: url(../assets/bg/aboutone.png);
+  background-color: #101010;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 90%;
+}
+
 @media only screen and (max-width: 640px) {
   .introbg {
     background-position: top center;
@@ -44,9 +52,7 @@
   .about3 {
     background-position: center center;
   }
-  /* .about1 {
-    background: #101010;
-  } */
+
   .about2 {
     background: none;
   }
@@ -56,14 +62,7 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
-  /* .about-1 {
-    background: url(../assets/bg/About1.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 120%;
-    padding: 40px;
-  } */
+
   .about2half {
     background: url(../assets/bg/About2Half.svg);
     background-color: #101010;
@@ -83,6 +82,7 @@
     background-position: left center;
     background-size: 70%;
   }
+
   .about2 {
     background: url(../assets/bg/About2.svg);
     background-color: #101010;
@@ -93,13 +93,6 @@
   .about-3 {
     background: #101010;
   }
-  /* .about1 {
-    background: url(../assets/bg/About1Half.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 100%;
-  } */
   .about2half {
     background: #101010;
   }
