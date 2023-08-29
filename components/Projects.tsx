@@ -11,10 +11,6 @@ const Projects = () => {
         <Project1 />
         <Project2 />
         <Project3 />
-        {/* <Modal
-          sectionName="Our Projects"
-          modalContent={<p>Content for Our Projects</p>}
-        /> */}
       </main>
     </>
   );
