@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 
 const Sidebar = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
@@ -52,7 +51,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initial check
+    handleScroll();
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -79,7 +78,11 @@ const Sidebar = () => {
               >
                 {section}
               </span>
-              <div className={`${activeSection === section ? "h-[2.5px]" : "h-[1px]"} flex-grow w-8 bg-blue-500`} />
+              <div
+                className={`${
+                  activeSection === section ? "h-[2.5px]" : "h-[1px]"
+                } flex-grow w-8 bg-blue-500`}
+              />
             </div>
           </li>
         ))}

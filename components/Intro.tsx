@@ -1,10 +1,17 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/assets/logoB1.svg";
 import hamIcon from "@/assets/hamburgerMenu.svg";
 
 const Intro = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <section
       id="Introduction"
@@ -13,7 +20,7 @@ const Intro = () => {
       <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">
         <div className="fixed top-5 md:right-14 md:left-14 fixedNav col-span-4 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
-            <Link href='/'>
+            <Link href="/">
               <Image
                 className="pt-2 md:pt-0 w-52"
                 src={logo}
@@ -24,18 +31,83 @@ const Intro = () => {
             </Link>
           </div>
 
-          <div className="col-start-3 md:col-start-11 xl:col-start-11 col-span-1 lg:ml-10">
-            <button className="border-[1px] items-center justify-center rounded-xl w-36 h-8 border-[#2C33D6] text-[#2C33D6] hover:bg-[#2C33D6] hover:text-white">
+          <div className="col-start-3 sayhello md:col-start-11 xl:col-start-11 col-span-1 lg:ml-10">
+            <button
+              className="border-[1px] items-center justify-center rounded-xl w-36 h-8
+            border-[#2C33D6] text-[#2C33D6] hover:bg-[#2C33D6] hover:text-white"
+            >
               SAY- HELLO
             </button>
           </div>
           <div className="md:hidden col-start-5 col-span-1">
-            <Image
-              src={hamIcon}
-              width={30}
-              height={30}
-              alt="Hamburger Menu Icon"
-            />
+            <button onClick={handleMenuToggle}>
+              {menuOpen ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              ) : (
+                <Image
+                  src={hamIcon}
+                  width={30}
+                  height={30}
+                  alt="Hamburger Menu Icon"
+                />
+              )}
+            </button>
+          </div>
+        </div>
+
+        <div
+          className={`${
+            menuOpen ? "block" : "hidden"
+          } md:hidden fixed inset-0 bg-[#101010]`}
+        >
+          <div className="flex flex-col justify-top h-full items-end py-10 pr-5 space-y-6">
+            <Link href="/" onClick={handleMenuToggle}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="blue"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </Link>
+            <Link href="#Introduction" onClick={handleMenuToggle}>
+              <p className="text-blue-500">Introduction</p>
+            </Link>
+            <Link href="#About Us" onClick={handleMenuToggle}>
+              <p className="text-blue-500">About Us</p>
+            </Link>
+            <Link href="#Services" onClick={handleMenuToggle}>
+              <p className="text-blue-500">Services</p>
+            </Link>
+            <Link href="#Projects" onClick={handleMenuToggle}>
+              <p className="text-blue-500">Projects</p>
+            </Link>
+            <Link href="#Clients & Partners" onClick={handleMenuToggle}>
+              <p className="text-blue-500">Clients & Partners</p>
+            </Link>
+            <Link href="#Contact" onClick={handleMenuToggle}>
+              <p className="text-blue-500">Contact</p>
+            </Link>
           </div>
         </div>
 
@@ -60,9 +132,9 @@ const Intro = () => {
           </div>
         </div>
 
-        <div className="col-span-4 hidden lg:inline-grid row-span-1 md:col-span-11  grid-cols-4 md:grid-cols-12 gap-5">
+        <div className="col-span-4 hidden lg:inline-grid row-span-1 md:col-span-11 grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
-            <Link href="#contact">
+            <Link href="#About Us">
               <p className="text-textPrimary text-xs inline">
                 Scroll for more&emsp;
                 <svg
