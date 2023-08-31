@@ -15,7 +15,7 @@ const Intro = () => {
   return (
     <section
       id="Introduction"
-      className="w-full introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]"
+      className="w-full h-[100vh] introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]"
     >
       <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">
         <div className="fixed top-5 md:right-14 md:left-14 fixedNav col-span-4 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
@@ -31,12 +31,12 @@ const Intro = () => {
             </Link>
           </div>
 
-          <div className="col-start-3 sayhello md:col-start-11 xl:col-start-11 col-span-1 lg:ml-10">
+          <div className="col-start-3 md:col-start-11 xl:col-start-11 col-span-1 lg:ml-10">
             <button
-              className="border-[1px] items-center justify-center rounded-xl w-36 h-8
-            border-[#2C33D6] text-[#2C33D6] hover:bg-[#2C33D6] hover:text-white"
+              className="border-[1px] sayhello items-center justify-center rounded-xl w-36 h-8
+            border-[#2C33D6] text-[#2C33D6] bg-[#2C33D6]/20 hover:bg-[#2C33D6] hover:text-white"
             >
-              SAY- HELLO
+              SAY HELLO
             </button>
           </div>
           <div className="md:hidden col-start-5 col-span-1">
@@ -111,24 +111,23 @@ const Intro = () => {
           </div>
         </div>
 
-        <div
-          className="col-span-10 row-span-3 py-64 md:col-span-12 inline-grid grid-flow-row grid-cols-4
-        md:grid-cols-12 gap-1 md:gap-6 md:py-40 px-6 md:px-0"
-        >
-          <div className="herotext col-span-4 md:col-start-2 lg:col-start-3 xl:col-start-3 row-span-1 row-start-1">
-            <h1 className="text-4xl text-left md:text-5xl uppercase text-textPrimary">
-              Together
-            </h1>
-          </div>
-          <div className="herotext col-span-10 md:col-span-7 md:col-start-5 xl:col-start-5 row-span-1 row-start-2">
-            <h1 className="text-4xl md:text-5xl text-left uppercase text-textPrimary">
-              {`Let's Reach your goals!`}
-            </h1>
-          </div>
-          <div className="col-span-3 py-5 md:py-0 md:col-span-5 text-left md:text-right md:col-start-5 row-span-1 row-start-3">
-            <p className="text-xs text-textPrimary">
-              Quanta autem vis amicitiae sit, ex hoc intellegi maxime
-            </p>
+        <div className="col-span-10 row-span-3 md:col-span-12 w-full flex items-center justify-center h-[80vh]">
+          <div className="inline-grid grid-flow-row grid-cols-4 md:grid-cols-12 gap-1 w-full font-headingFamily">
+            <div className="herotext1 col-span-4 md:col-start-2 xl:col-start-2 row-span-1 row-start-1">
+              <h1 className="text-5xl md:text-6xl xl:text-[75px] uppercase text-textPrimary font-[300]">
+                Together
+              </h1>
+            </div>
+            <div className="herotext col-span-10 md:col-span-9 md:col-start-5 xl:col-start-4 row-span-1 row-start-2">
+              <h1 className="text-5xl md:text-6xl xl:text-[75px] text-left uppercase text-textPrimary font-[300]">
+                {`Let's Reach your goals!`}
+              </h1>
+            </div>
+            <div className="col-span-3 py-5 md:py-0 md:col-span-5 text-left md:text-right md:col-start-[-8] row-span-1 row-start-3">
+              <p className="text-xs lg:text-lg text-textPrimary tracking-widest">
+                Quanta autem vis amicitiae sit, ex hoc intellegi maxime
+              </p>
+            </div>
           </div>
         </div>
 

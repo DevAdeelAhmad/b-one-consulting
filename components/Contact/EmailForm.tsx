@@ -6,13 +6,15 @@ const EmailForm = () => {
       <div className="grid grid-cols-4 grid-rows-10 md:grid-cols-12 gap-10">
         <div className="col-start-1 col-span-4 row-span-1 md:col-span-12 md:row-span-1 inline-grid grid-cols-4 md:grid-cols-12">
           <div className="col-span-4 text-left md:col-span-6">
-            <h1 className="uppercase text-5xl md:text-7xl font-light">
+            <h1 className="uppercase text-6xl xl:text-8xl font-headingFamily 2xl:text-[140px] font-light">
               Get in touch
             </h1>
           </div>
           <div className="col-span-0 md:col-start-7 md:col-span-5 mt-9 hidden lg:grid">
             <p className="uppercase text-2xl">
-              <span className="text-sm">tell us more &emsp;</span>
+              <span className="text-md font-textFamily">
+                tell us more &emsp;
+              </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -33,13 +35,13 @@ const EmailForm = () => {
 
         <div className="col-span-4 md:col-span-11 row-span-1 inline-grid grid-cols-4 md:grid-cols-12 gap-16">
           <div className="col-span-4 col-start-1 md:col-start-2 md:col-span-3">
-            <p className="uppercase text-md">
+            <p className="uppercase text-lg font-headingFamily">
               for any enquiries, or just say hello, contact us through this form
             </p>
           </div>
 
           <div className="col-span-4 md:col-span-8 inline-grid grid-cols-4 md:grid-cols-12 grid-flow-row gap-10">
-            <div className="col-span-4 md:col-span-6 col-start-1 flex flex-col gap-10">
+            <div className="col-span-4 md:col-span-6 col-start-1 flex flex-col gap-10 font-headingFamily">
               <div className="fullNameField flex flex-col">
                 <label
                   className="uppercase text-textPrimary text-xs font-light"
@@ -117,7 +119,7 @@ const EmailForm = () => {
               </div>
             </div>
             <div>
-              <button className="border-[1px] hidden md:flex items-center justify-center rounded-xl w-36 h-8 border-[#2C33D6] text-[#2C33D6] hover:bg-[#2C33D6] hover:text-white">
+              <button className="border-[1px] hidden md:flex items-center justify-center rounded-xl w-36 h-8 border-[#2C33D6] text-[#2C33D6] bg-[#2C33D6]/20 hover:bg-[#2C33D6] hover:text-white">
                 SUBMIT
               </button>
             </div>

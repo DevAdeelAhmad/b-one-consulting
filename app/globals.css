@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.font-border {
+  font-weight: 800;
+  color: #101010;
+  -webkit-text-stroke: 0.3px #f1f1f1;
+}
 .clientbg {
   background: url(../assets/bg/ClientBg.svg);
   background-size: cover;
@@ -35,19 +39,19 @@
   background-position: center center;
 }
 
-
-
-
 @media only screen and (max-width: 640px) {
-  .about-1 {
-    background: url(../assets/bg/About1.svg);
+  .about1bg {
+    background: url(../assets/bg/About1Png.png);
     background-color: #101010;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 40%;
+    background-size: 100%;
   }
   .introbg {
     background-position: top center;
+  }
+  .about2 {
+    background-position: center center;
   }
   .about4 {
     background-position: center center;
@@ -56,8 +60,12 @@
     background-position: center center;
   }
 
-  .about2 {
-    background: none;
+  .about-2 {
+    background: url(../assets/bg/About2.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: cover;
   }
   .about-3 {
     background: url(../assets/bg/About3.svg);
@@ -78,7 +86,7 @@
   }
 }
 @media only screen and (min-width: 641px) {
-  .about-1{
+  .about-1 {
     background: #101010;
   }
   .about3 {
@@ -111,39 +119,138 @@
 }
 
 @media only screen and (min-width: 1700px) {
-  .herotext {
-    margin-left: 150px;
-  }
   .fixedNav {
     right: -50px;
   }
-  .about4xl{
+  .marquee {
+    font-size: 3rem;
+  }
+  .about4xl {
     margin-left: 90px !important;
   }
 }
+@media only screen and (min-width: 1750px) {
+  .herotext1 {
+    margin-left: 180px;
+  }
+  .herotext {
+    margin-left: 150px;
+  }
+}
+@media only screen and (min-width: 1880px) {
+  .herotext1 {
+    margin-left: 200px;
+  }
+}
+@media only screen and (min-width: 1570px) {
+  .sayhello {
+    margin-left: 60px;
+  }
+}
+@media only screen and (min-width: 1830px) {
+  .sayhello {
+    margin-left: 100px;
+  }
+}
 
-.moving-banner {
+.banner {
   display: flex;
-  justify-content: center;
   align-items: center;
+  width: auto;
   height: 20vh;
   overflow: hidden;
-  position: relative;
 }
-
-.moving-banner h1 {
-  margin: 0;
+.marquee {
+  margin: 0 auto;
+  font-size: 2rem;
   white-space: nowrap;
-  animation: moveBanner 20s linear infinite;
-  -webkit-text-stroke: 0.5px #F1F1F1 !important;
-  color: black;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  font-weight: 800;
+  color: #101010;
+  -webkit-text-stroke: 0.5px #f1f1f1;
 }
 
-@keyframes moveBanner {
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 60s linear infinite;
+}
+
+.marquee2 span {
+  animation-delay: 20s;
+}
+
+@keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translate(0, 0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translate(-100%, 0);
   }
+}
+
+@media only screen and (max-width: 1280px) {
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 30s linear infinite;
+  }
+  .marquee2 span {
+    animation-delay: 15s;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 35s linear infinite;
+  }
+  .marquee2 span {
+    animation-delay: 17.5s;
+  }
+}
+
+
+.fixed-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal-content {
+  width: 60%;
+  max-width: 60rem; 
+  height: 90%;
+  max-height: 90vh; 
+  background-color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-close {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2c33d6;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.modalbg{
+  background: url(../assets/bg/ModalBg.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: 60%;
 }

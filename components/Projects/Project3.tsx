@@ -9,8 +9,8 @@ const Project3 = () => {
         <div className="justify-center col-start-1 col-span-4 md:col-start-8 pt-8">
           <Image src={project} alt="" width={400} height={400} />
         </div>
-        <div className=" col-start-1 col-span-4 md:col-span-5 md:col-start-2 md:row-start-1 ">
-          <h1 className="font-bold text-4xl pt-10 md:pt-40 xl:pt-52">
+        <div className=" col-start-1 col-span-4 md:col-span-5 md:col-start-2 md:row-start-1 font-textFamily">
+          <h1 className="font-semibold text-4xl pt-10 md:pt-40 xl:pt-52">
             Projects #3
           </h1>
           <p className="lg:text-sm pt-7">

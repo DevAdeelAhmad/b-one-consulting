@@ -16,23 +16,26 @@ import roadmunk from "@/assets/partners/roadmunk.svg";
 
 const Clients = () => {
   return (
-    <section id="Clients & Partners" className="w-full clientbg text-textPrimary text-sm py-32 xl:py-52 px-12">
+    <section
+      id="Clients & Partners"
+      className="w-full clientbg text-textPrimary text-sm py-32 xl:py-52 px-12"
+    >
       <div className="w-full grid grid-cols-4 grid-rows-10 gap-y-5 md:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
         <div
           className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1
         inline-grid md:grid-cols-12 md:grid-rows-1"
         >
-          <h1 className="col-span-4 md:col-span-7 lg:col-span-6 md:row-span-1 text-4xl font-normal uppercase">
+          <h1 className="col-span-4 md:col-span-7 lg:col-span-6 md:row-span-1 text-4xl font-normal uppercase font-headingFamily">
             Clients & Partners
           </h1>
-          <p className="col-span-4 md:col-span-5 lg:col-span-4 md:row-span-1 text-justify text-xs mt-2 font-extralight">
+          <p className="col-span-4 md:col-span-5 lg:col-span-4 md:row-span-1 text-justify text-xs mt-2 font-extralight font-textFamily">
             The customer remains at the center of our concerns, becoming an
             actor of his success is our goal.
           </p>
         </div>
 
         <div className="col-span-2 row-span-1 col-start-1 md:col-start-2">
-          <h1 className="text-sm">&#9679;&emsp;Clients</h1>
+          <h1 className="text-sm font-textFamily">&#9679;&emsp;Clients</h1>
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
@@ -83,7 +86,7 @@ const Clients = () => {
         </div>
 
         <div className="col-span-2 row-span-1 col-start-1 md:col-start-2">
-          <h1 className="text-sm">&#9679;&emsp;Partners</h1>
+          <h1 className="text-sm font-textFamily">&#9679;&emsp;Partners</h1>
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">

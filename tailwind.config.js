@@ -11,6 +11,10 @@ module.exports = {
         textPrimary: "#F1F1F1",
         textSecondary: "#646464",
       },
+      fontFamily: {
+        headingFamily: ["Titillium Web", "sans-serif"],
+        textFamily: ["Prompt", "sans-serif"],
+      },
     },
   },
   plugins: [],
