@@ -30,14 +30,14 @@ const page = () => {
             Well-managed data provides decision-makers with accurate and
             reliable information to make informed decisions.
           </p>
-          
-        <div className="col-start-1 col-span-2 row-start-4 md:col-start-2 md:col-span-2 md:row-start-4 md:pt-10">
-          <p className="font-bold">Cost Efficiency</p>
-          <p>
-            Efficient data management reduces costs associated with poor data
-            quality, processing errors, and non-compliance.
-          </p>
-        </div>
+
+          <div className="col-start-1 col-span-2 row-start-4 md:col-start-2 md:col-span-2 md:row-start-4 md:pt-10">
+            <p className="font-bold">Cost Efficiency</p>
+            <p>
+              Efficient data management reduces costs associated with poor data
+              quality, processing errors, and non-compliance.
+            </p>
+          </div>
         </div>
         <div className="col-start-1 uppercase col-span-4 row-start-5 md:col-start-5 md:col-span-3 md:row-start-4">
           <p className="font-bold">Competitiveness</p>
@@ -59,82 +59,83 @@ const page = () => {
         </div>
         <div className="col-start-3 col-span-4 row-start-8 uppercase md:col-start-5 md:col-span-3 md:row-start-4 md:pt-40">
           <div className="col-start-3 col-span-2 row-start-4 md:col-start-4 md:col-span-2 md:row-start-4 md:pt-10">
-          <p className="font-bold">Regulatory Compliance</p>
-          <p>
-            Data management helps comply with legal and regulatory requirements
-            regarding data protection and privacy.
-          </p>
-        </div>
-        <div className="col-start-1 col-span-4 row-start-9 md:col-start-2 md:col-span-4 md:row-start-5 ">
-        </div>
-        <div className="col-start-1 col-span-4 row-start-8 md:col-start-6 md:col-span-4 md:row-start-4">
-          <Image src={innerser1} alt="" width={200} height={230} />
-        </div>
-
-
-        <div className="col-start-1 col-span-4 row-start-9 md:col-start-2 md:col-span-4 md:row-start-5 ">
-          <h3 className="uppercase md:text-2xl">
-            The power of reporting and data visualization
-          </h3>
-        </div>
-        <div className="col-start-1 col-span-4 md:col-start-2 md:col-span-8 md:row-start-6">
-        <div className="col-start-1 col-span-4 row-start-10 md:col-start-2 md:col-span-8 md:row-start-6">
-          <p>
-            In the world of data, it is essential to know how to effectively
-            present and communicate key information. Data visualization plays a
-            central role in the reporting process by making information more
-            accessible, understandable, and visually appealing. It facilitates
-            the communication of key insights, informed decision-making, and
-            allows users to interact with data for deeper exploration. The
-            combination of well-structured reporting and effective data
-            visualizations helps create relevant and informative reports.
-          </p>
-        </div>
-
-        <div className="col-start-1 col-span-4 row-start-11 md:col-start-2 md:col-span-4 row-start-7 pt-5 pb-5 ">
-          <p className="uppercase font-thin">The Benefits of Data Management</p>
-        </div>
-        <div className="col-start-1 col-span-2 row-start-10  md:col-start-2 md:col-span-2 md:row-start-8">
-          <p className="font-bold"> Informed Decision Making</p>
-          <p>
-            Well-managed data provides decision-makers with accurate and
-            reliable information to make informed decisions.
-          </p>
-
-          <div className="col-start-1 col-span-2 row-start-14 md:col-start-2 md:col-span-2 md:row-start-8 md:pt-10">
-            <p className="font-bold">Cost Efficiency</p>
-            <p>
-              Efficient data management reduces costs associated with poor data
-              quality, processing errors, and non-compliance.
-            </p>
-          </div>
-          
-        <div className="col-start-1 col-span-2 row-start-12 md:col-start-2 md:col-span-2 md:row-start-8 md:pt-10">
-          <p className="font-bold">Cost Efficiency</p>
-          <p>
-            Efficient data management reduces costs associated with poor data
-            quality, processing errors, and non-compliance.
-          </p>
-        </div>
-        </div>
-        <div className="col-start-3 col-span-2 row-start-13 md:col-start-4 md:col-span-2 md:row-start-8">
-          <p className="font-bold"> Competitiveness</p>
-          <p>
-            Companies that fully leverage their data and use it for innovation
-            can gain a competitive edge in the market.
-          </p>
-          <div className="col-start-3 col-span-2 row-start-14 md:col-start-4 md:col-span-2 md:row-start-8 md:pt-10">
             <p className="font-bold">Regulatory Compliance</p>
             <p>
               Data management helps comply with legal and regulatory requirements
               regarding data protection and privacy.
             </p>
           </div>
-        </div>
-        <div className="col-start-1 col-span-4 row-start-15 md:col-start-6 md:col-span-4 md:row-start-8 ">
-          <Image src={innerser2} alt="" width={200} height={230} />
-        </div>
+          <div className="col-start-1 col-span-4 row-start-9 md:col-start-2 md:col-span-4 md:row-start-5 ">
+          </div>
+          <div className="col-start-1 col-span-4 row-start-8 md:col-start-6 md:col-span-4 md:row-start-4">
+            <Image src={innerser1} alt="" width={200} height={230} />
+          </div>
 
+
+          <div className="col-start-1 col-span-4 row-start-9 md:col-start-2 md:col-span-4 md:row-start-5 ">
+            <h3 className="uppercase md:text-2xl">
+              The power of reporting and data visualization
+            </h3>
+          </div>
+          <div className="col-start-1 col-span-4 md:col-start-2 md:col-span-8 md:row-start-6">
+            <div className="col-start-1 col-span-4 row-start-10 md:col-start-2 md:col-span-8 md:row-start-6">
+              <p>
+                In the world of data, it is essential to know how to effectively
+                present and communicate key information. Data visualization plays a
+                central role in the reporting process by making information more
+                accessible, understandable, and visually appealing. It facilitates
+                the communication of key insights, informed decision-making, and
+                allows users to interact with data for deeper exploration. The
+                combination of well-structured reporting and effective data
+                visualizations helps create relevant and informative reports.
+              </p>
+            </div>
+
+            <div className="col-start-1 col-span-4 row-start-11 md:col-start-2 md:col-span-4 row-start-7 pt-5 pb-5 ">
+              <p className="uppercase font-thin">The Benefits of Data Management</p>
+            </div>
+            <div className="col-start-1 col-span-2 row-start-10  md:col-start-2 md:col-span-2 md:row-start-8">
+              <p className="font-bold"> Informed Decision Making</p>
+              <p>
+                Well-managed data provides decision-makers with accurate and
+                reliable information to make informed decisions.
+              </p>
+
+              <div className="col-start-1 col-span-2 row-start-14 md:col-start-2 md:col-span-2 md:row-start-8 md:pt-10">
+                <p className="font-bold">Cost Efficiency</p>
+                <p>
+                  Efficient data management reduces costs associated with poor data
+                  quality, processing errors, and non-compliance.
+                </p>
+              </div>
+
+              <div className="col-start-1 col-span-2 row-start-12 md:col-start-2 md:col-span-2 md:row-start-8 md:pt-10">
+                <p className="font-bold">Cost Efficiency</p>
+                <p>
+                  Efficient data management reduces costs associated with poor data
+                  quality, processing errors, and non-compliance.
+                </p>
+              </div>
+            </div>
+            <div className="col-start-3 col-span-2 row-start-13 md:col-start-4 md:col-span-2 md:row-start-8">
+              <p className="font-bold"> Competitiveness</p>
+              <p>
+                Companies that fully leverage their data and use it for innovation
+                can gain a competitive edge in the market.
+              </p>
+              <div className="col-start-3 col-span-2 row-start-14 md:col-start-4 md:col-span-2 md:row-start-8 md:pt-10">
+                <p className="font-bold">Regulatory Compliance</p>
+                <p>
+                  Data management helps comply with legal and regulatory requirements
+                  regarding data protection and privacy.
+                </p>
+              </div>
+            </div>
+            <div className="col-start-1 col-span-4 row-start-15 md:col-start-6 md:col-span-4 md:row-start-8 ">
+              <Image src={innerser2} alt="" width={200} height={230} />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
