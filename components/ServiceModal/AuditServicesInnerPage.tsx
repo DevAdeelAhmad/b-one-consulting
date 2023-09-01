@@ -2,7 +2,7 @@ import React from 'react'
 
 const AuditServicesInnerPage = () => {
   return (
-    <section className="w-full bg-black text-left text-textPrimary text-sm pb-10 pt-4 px-12">
+    <section className="w-full bg-black text-left h-screen text-textPrimary text-sm pb-10 pt-4 px-12">
 
       <div className="w-full grid grid-cols-4 grid-flow-row gap-y-5 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-20">
 
@@ -76,7 +76,7 @@ const AuditServicesInnerPage = () => {
         <div className="row-start-11 col-start-1 col-span-3 md:row-start-6 md:col-start-3 md:col-span-2">
           <p className="md:text-xl text-base uppercase">implementation and execution </p>
         </div>
-        <div className="row-start-12 col-start-1 col-span-4 md:row-start-6 md:col-start-7 md:col-span-5 text-sm md:text-base">
+        <div className="row-start-12 col-start-1 col-span-4 md:row-start-6 md:col-start-7 md:col-span-5 text-sm md:text-base pb-20">
           <p>
             Once the recommendations have been communicated, the next step is to
             implement them. This involves planning actions, allocating
