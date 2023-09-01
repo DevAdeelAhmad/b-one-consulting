@@ -1,9 +1,14 @@
+import Image from "next/image";
 import React from "react";
+import brandstrategy from "@/assets/bg/brandstrategy.svg";
+import brandidentity from "@/assets/bg/brandidentity.svg";
+import brandcom from "@/assets/bg/brandcom.svg";
+import contentcre from "@/assets/bg/contentcreation.svg";
 
 const page = () => {
   return (
     <section className="w-full bg-[#101010] text-textPrimary text-sm pb-10 pt-4 px-12">
-      <div className="w-full grid grid-cols-4 grid-rows-14 gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-rows-12 pb-20">
+      <div className="w-full grid grid-cols-4 grid-rows-14 gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-rows-16 pb-20">
         <div className="col-start-1 col-span-2 md:row-start-1 md:col-start-4 md:col-span-4">
           <h3 className="uppercase md:text-2xl ">Strategic Marketing</h3>
         </div>
@@ -124,6 +129,75 @@ const page = () => {
             channels. With the growth of the Internet and the widespread use of
             electronic devices, digital marketing has become increasingly
             important for businesses.
+          </p>
+        </div>
+
+        <div className="col-start-1 col-span-4 md:row-start-11 md:col-start-4 md:col-span-3">
+          <Image src={brandstrategy} alt="" width={300} height={300} />
+        </div>
+        <div className="col-start-1 col-span-4 md:row-start-11 md:col-start-7 md:col-span-3">
+          <Image src={brandidentity} alt="" width={300} height={300} />
+        </div>
+        <div className="col-start-1 col-span-4 md:row-start-12 md:col-start-4 md:col-span-3">
+          <p>
+            Brand strategy involves defining the vision, objectives, and values
+            of your brand, as well as the means to achieve them. It includes a
+            thorough analysis of your target market, competitors, and unique
+            positioning.
+          </p>
+          <p className="pt-4">
+            By developing a strong brand strategy, we help you establish a clear
+            direction for your business. This enables you to better understand
+            your target audience, create effective marketing messages, and make
+            informed decisions to strengthen your market positioning.
+          </p>
+        </div>
+        <div className="col-start-1 col-span-4 md:row-start-12 md:col-start-7 md:col-span-3">
+          <p>
+            We will work on the visual and verbal elements of your brand to
+            create a consistent and memorable identity. This will include
+            designing your logo, selecting colors and typography, and
+            establishing a distinctive brand voice.
+          </p>
+          <p className="pt-4">
+            By developing a distinctive and appealing brand identity, we help
+            you enhance brand recognition and create an emotional connection
+            with your audience. This fosters trust, loyalty, and differentiation
+            from your competitors.
+          </p>
+        </div>
+        <div className="col-start-1 col-span-4 md:row-start-13 md:col-start-4 md:col-span-3">
+          <Image src={brandcom} alt="" width={300} height={300} />
+        </div>
+        <div className="col-start-1 col-span-4 md:row-start-13 md:col-start-7 md:col-span-3">
+          <Image src={contentcre} alt="" width={300} height={300} />
+        </div>
+
+        <div className="col-start-1 col-span-4 md:row-start-14 md:col-start-4 md:col-span-3">
+          <p>
+            Our team will develop an effective brand communication strategy
+            using various channels, such as social media, content marketing, and
+            public relations. We will create relevant and impactful messages to
+            reach your target audience.
+          </p>
+          <p className="pt-4">
+            Through consistent and strategic brand communication, we help you
+            increase visibility and generate engagement. Your brand will be
+            perceived positively, capturing attention and sparking interest from
+            your audience.
+          </p>
+        </div>
+        <div className="col-start-1 col-span-4 md:row-start-14 md:col-start-7 md:col-span-3">
+          <p>
+            Our team of designers and content creators will produce visually
+            appealing assets and quality content to represent your brand. This
+            includes website design, marketing materials, videos, and blogs.
+          </p>
+          <p className="pt-4">
+            By providing professional design and high-quality content, we help
+            you present your brand in a captivating and compelling manner. Your
+            audience will be enticed, engagement will increase, and your
+            conversion chances will be optimized.
           </p>
         </div>
       </div>
