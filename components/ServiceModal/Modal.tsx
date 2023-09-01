@@ -48,9 +48,9 @@ const ServicesModal = () => {
 
   useEffect(() => {
     if (activeSection === "Services" || activeSection?.startsWith("Projects")) {
-      openModal();
-    } else {
       closeModal();
+    } else {
+      null;
     }
   }, [activeSection]);
 
@@ -60,7 +60,7 @@ const ServicesModal = () => {
         <span className="text-md lg:text-lg text-right">
           {activeSection === "Services" ? "Our Services" : "Our Projects"}
         </span>
-        <button className="font-semibold text-lg ml-5" onClick={closeModal}>
+        <button className="font-semibold text-lg ml-5" onClick={openModal}>
           Open
         </button>
         {isModalOpen && <ServicesModalContent onClose={closeModal} />}
