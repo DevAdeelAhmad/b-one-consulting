@@ -37,7 +37,7 @@ const page = () => {
           </p>
 
           <div className="col-start-1 col-span-2 md:col-start-4 md:col-span-3 md:row-start-4 md:pt-10">
-            <p className="font-bold">Product & service positioning</p>
+            <h1 className="font-bold">Product & service positioning</h1>
             <p>
               Determining the unique position the company wants to occupy in the
               market, differentiating itself from the competition and creating a
