@@ -10,7 +10,7 @@ const page = () => {
     <section className="w-full bg-[#101010] text-textPrimary text-sm pb-10 pt-4 px-12">
       <div className="w-full grid grid-cols-4 grid-rows-14 gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-rows-16 pb-20">
         <div className="col-start-1 col-span-2 md:row-start-1 md:col-start-4 md:col-span-4">
-          <h3 className="uppercase md:text-2xl ">Strategic</h3>
+          <h3 className="uppercase md:text-2xl ">Strategic Marketing</h3>
         </div>
         <div className="col-start-1 col-span-4 md:row-start-2 md:col-start-4 md:col-span-6">
           <p>
