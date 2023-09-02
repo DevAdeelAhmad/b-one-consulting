@@ -66,7 +66,7 @@ const page = () => {
         </div>
 
         <div className="col-start-1 col-span-2 md:row-start-5 md:col-start-4 md:col-span-4">
-          <h3 className="uppercase md:text-2xl ">Digital Marketing</h3>
+          <h3 className="uppercase md:text-2xl ">Digital arketing</h3>
         </div>
 
         <div className="col-start-1 col-span-4 md:row-start-6 md:col-start-4 md:col-span-6">
