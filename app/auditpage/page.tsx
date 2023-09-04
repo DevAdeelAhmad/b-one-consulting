@@ -7,7 +7,7 @@ const auditpage = () => {
       <div className="w-full grid grid-cols-4 grid-flow-row gap-y-5 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-20">
 
         <div className="col-start-1 col-span-3 row-start-1 md:col-start-1 md:col-span-6 pt-10">
-          <h1 className="md:text-4xl text-xl uppercase">Why conduct an audit?</h1>
+          <h1 className="md:text-4xl text-xl uppercase"> conduct an audit?</h1>
         </div>
 
         <div className=" col-start-1 col-span-4 row-start-2 md:row-start-2 md:col-start-1 md:col-span-12">
