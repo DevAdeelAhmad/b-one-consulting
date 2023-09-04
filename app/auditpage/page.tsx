@@ -12,7 +12,7 @@ const auditpage = () => {
 
         <div className=" col-start-1 col-span-4 row-start-2 md:row-start-2 md:col-start-1 md:col-span-12">
           <p className="">
-            An audit allows for an assessment of your company's current
+            An audit allows for an assessment of  company's current
             situation. It helps identify areas that require improvements or
             adjustments, whether it's internal processes, resource management,
             or business strategy.
