@@ -31,7 +31,7 @@ const auditpage = () => {
         </div>
         <div className="row-start-5 col-start-1 col-span-3 md:row-start-4 md:col-start-3 md:col-span-3">
           <p className="md:text-xl text-base uppercase">
-            Conducting a diagnosis of current processes  information systems.
+            Conducting a diagnosis of current processes & information systems.
           </p>
         </div>
         <div className="row-start-6 col-start-1 col-span-4 md:row-start-4 md:col-start-7 md:col-span-5 pb-10 md:pb-20 text-sm md:text-base">
