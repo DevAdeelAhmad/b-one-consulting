@@ -63,6 +63,8 @@ const ServicesModalContent: React.FC<ServicesModalContentProps> = ({ onClose }) 
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 4.5l15 15m0 0V8.25m0 11.25H8.25" />
                 </svg>
               </li>
+              <hr />
+
             </ul>
           </div>
           <div className="absolute top-0 overflow-y-auto">{getContentComponent()}</div>

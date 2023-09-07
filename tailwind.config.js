@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,8 +13,8 @@ module.exports = {
         textSecondary: "#646464",
       },
       fontFamily: {
-        headingFamily: ["Titillium Web", "sans-serif"],
-        textFamily: ["Prompt", "sans-serif"],
+        Titillium: ['"Titillium Web"', ...defaultTheme.fontFamily.sans],
+        Prompt: ['"Prompt"', ...defaultTheme.fontFamily.sans],
       },
     },
   },

@@ -17,12 +17,17 @@ const ProjectsModal = () => {
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const middleOfViewport = scrollY + windowHeight / 2;
+
     const sectionInView = sections.find((section) => {
       const targetElement = document.getElementById(section);
       if (targetElement) {
         const sectionTop = targetElement.offsetTop;
         const sectionBottom = sectionTop + targetElement.clientHeight;
-        return scrollY >= sectionTop && scrollY < sectionBottom;
+        return (
+          middleOfViewport >= sectionTop && middleOfViewport <= sectionBottom
+        );
       }
       return false;
     });
@@ -57,7 +62,7 @@ const ProjectsModal = () => {
   return (
     <section
       className={`${activeSection === "Projects"
-          ? "fixed w-screen bottom-10 h-16 inline-grid ml-10 md:ml-0 md:pl-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
+          ? "fixed w-screen bottom-10 h-16 md:h-24 inline-grid ml-10 md:ml-0 md:pl-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
           : "hidden"
         }`}
     >
@@ -65,14 +70,14 @@ const ProjectsModal = () => {
         className="section-with-modal col-start-1 md:col-start-2 flex items-center justify-end pr-10 col-span-4 md:col-span-12 rounded-3xl border text-right border-textSecondary w-10/12"
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <span className="text-md lg:text-lg text-right text-textPrimary">
-          {activeSection === "Projects" ? "Our Projects" : "Our Services"}
+        <span className="text-base text-right text-textPrimary">
+          {activeSection === "Projects" ? "OUR PROJECTS" : "OUR SERVICES"}
         </span>
         <button
-          className="font-semibold text-textPrimary text-lg ml-5"
+          className="font-semibold text-textPrimary text-base ml-5"
           onClick={openModal}
         >
-          Open
+          OPEN
         </button>
         {isModalOpen && <ProjectsModalContent onClose={closeModal} />}
       </div>

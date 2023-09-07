@@ -18,7 +18,7 @@ const Intro = () => {
       className="w-full h-[100vh] introbg px-5 py-5 md:px-10 text-sm md:py-10 bg-[#101010]"
     >
       <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">
-        <div className="fixed top-5 md:right-14 md:left-14 fixedNav col-span-4 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
+        <div className="fixed top-1 md:top-8 md:right-14 md:left-14 fixedNav col-span-4 md:col-span-12 inline-grid grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
             <Link href="/">
               <Image
@@ -33,8 +33,8 @@ const Intro = () => {
 
           <div className="col-start-3 md:col-start-11 xl:col-start-11 col-span-1 lg:ml-10">
             <button
-              className="border-[1px] sayhello items-center justify-center rounded-xl w-36 h-8
-            border-[#2C33D6] text-[#2C33D6] bg-[#2C33D6]/20 hover:bg-[#2C33D6] hover:text-white"
+              className="border-[1.5px] sayhello items-center justify-center rounded-2xl w-36 h-8
+            border-[#2C33D6] text-[#2C33D6] font-Prompt bg-[#2C33D6]/20 hover:bg-[#2C33D6] hover:text-white"
             >
               SAY HELLO
             </button>
@@ -111,20 +111,20 @@ const Intro = () => {
           </div>
         </div>
 
-        <div className="col-span-10 row-span-3 md:col-span-12 w-full flex items-center justify-center h-[80vh]">
+        <div className="col-span-10 row-span-3 md:col-span-12 w-full flex items-center justify-center h-[90vh]">
           <div className="inline-grid grid-flow-row grid-cols-4 md:grid-cols-12 gap-1 w-full font-headingFamily">
             <div className="herotext1 col-span-4 md:col-start-2 xl:col-start-2 row-span-1 row-start-1">
-              <h1 className="text-5xl md:text-6xl xl:text-[75px] uppercase text-textPrimary font-[300]">
+              <h1 className="text-5xl md:text-6xl xl:text-[75px] uppercase font-Titillium text-textPrimary font-[300]">
                 Together
               </h1>
             </div>
-            <div className="herotext col-span-10 md:col-span-9 md:col-start-5 xl:col-start-4 row-span-1 row-start-2">
-              <h1 className="text-5xl md:text-6xl xl:text-[75px] text-left uppercase text-textPrimary font-[300]">
+            <div className="herotext col-span-10 md:col-span-9 md:col-start-4 xl:col-start-[-12] row-span-1 row-start-2">
+              <h1 className="text-5xl md:text-6xl xl:text-[75px] text-right font-Titillium uppercase text-textPrimary font-[300]">
                 {`Let's Reach your goals!`}
               </h1>
             </div>
-            <div className="col-span-3 py-5 md:py-0 md:col-span-5 text-left md:text-right md:col-start-[-8] row-span-1 row-start-3">
-              <p className="text-xs lg:text-lg text-textPrimary tracking-widest">
+            <div className="col-span-3 py-5 md:py-1 md:col-span-5 text-left md:text-right md:col-start-[-8] row-span-1 row-start-3">
+              <p className="text-xs lg:text-lg text-textPrimary font-Prompt tracking-widest">
                 Quanta autem vis amicitiae sit, ex hoc intellegi maxime
               </p>
             </div>
@@ -134,7 +134,7 @@ const Intro = () => {
         <div className="col-span-4 hidden lg:inline-grid row-span-1 md:col-span-11 grid-cols-4 md:grid-cols-12 gap-5">
           <div className="col-span-2 col-start-1">
             <Link href="#About Us">
-              <p className="text-textPrimary text-xs inline">
+              <p className="text-textPrimary font-Prompt text-[16px] inline">
                 Scroll for more&emsp;
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
