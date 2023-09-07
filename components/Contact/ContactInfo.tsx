@@ -28,7 +28,7 @@ const ContactInfo = () => {
 
             <ul>
               <li className="text-textSecondary">Open Hours</li>
-              <li>Monday to friday - 9am to 6pm</li>
+              <li>Monday to friday - 9Am to 6pm</li>
             </ul>
           </div>
 
