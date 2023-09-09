@@ -17,10 +17,10 @@ const Services = () => {
         <div className="col-start-1 md:col-start-3  h-64 2xl:h-[350px] col-span-2  flex flex-col justify-between  grid-flow-row mt-10 md:mt-0 border-l border-solid border-textPrimary">
           <div className="row-start-1 h-[8rem]"></div>
           <div className="row-start-2 pl-3 text-textPrimary">
-            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium xl:pt-32">
+            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium xl:pt-28  ">
               01
             </h1>
-            <p className="font-textFamily text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl xl:pt-1 xl:pb-24 2xl:pt-10">
+            <p className="font-textFamily text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl xl:pt-1 2xl:pt-10">
               Audit & consulting Services
             </p>
           </div>
@@ -29,7 +29,7 @@ const Services = () => {
         <div className="col-start-3 md:col-start-5 h-64 2xl:h-[350px] col-span-2 flex flex-col justify-between  grid-flow-row mt-10 md:mt-0 border-l border-solid border-textPrimary">
           <div className="row-start-1 h-[8rem]"></div>
           <div className="row-start-2 pl-3 text-textPrimary">
-            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium lg:pb-8 xl:pt-32 2xl:pb-16">
+            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium lg:pb-8 xl:pt-24 2xl:pb-16">
               02
             </h1>
             <p className="font-textFamily text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl xl:pt-0">
@@ -41,10 +41,10 @@ const Services = () => {
         <div className="col-start-1 md:col-start-7 h-64 2xl:h-[350px] col-span-2 flex flex-col justify-between  grid-flow-row mt-10 md:mt-0 border-l border-solid border-textPrimary">
           <div className="row-start-1 h-[8rem]"></div>
           <div className="row-start-2 pl-3 text-textPrimary">
-            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium lg:pb-8 xl:pt-32 2xl:pb-[90px]">
+            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium lg:pb-8  xl:pb-12 2xl:pb-[90px]">
               03
             </h1>
-            <p className="font-textFamily text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl xl:pt-2">
+            <p className="font-textFamily text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl">
               Data Solution
             </p>
           </div>
@@ -53,7 +53,7 @@ const Services = () => {
         <div className="col-start-3 md:col-start-9 h-64 2xl:h-[350px] col-span-2 flex flex-col justify-between  grid-flow-row mt-10 md:mt-0 border-l border-solid border-textPrimary">
           <div className="row-start-1 h-[8rem]"></div>
           <div className="row-start-2 pl-3 text-textPrimary">
-            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium lg:pb-2 xl:pt-32 2xl:">
+            <h1 className="text-5xl md:text-2xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium lg:pb-2 xl:pt-32 xl:pt-10" >
               04
             </h1>
             <p className="font-textFamily text-lg lg:text-xl  font-Prompt uppercase xl:text-sm 2xl:text-xl xl:pt-3 xl:pb-24 2xl:pt-16">
