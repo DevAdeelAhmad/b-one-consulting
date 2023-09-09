@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
-
 import Airfrance from "@/assets/clients/Airfrance.svg";
 import AS24 from "@/assets/clients/AS24.svg";
 import kesato from "@/assets/clients/kesato.svg";
 import lcl1 from "@/assets/clients/lcl1.svg";
 import master from "@/assets/clients/master.svg";
 import totalene from "@/assets/clients/TotalEne.svg";
+import imani from "@/assets/clients/IMANI.svg";
+import alDiwan from "@/assets/clients/aldiwan.svg";
+import cafe from "@/assets/clients/Cafe-Organic.svg";
 
 import Gsuit from "@/assets/partners/G-suite.svg";
 import fb from "@/assets/partners/FB.svg";
@@ -23,7 +25,12 @@ const Clients = () => {
       className="w-full relative text-textPrimary text-sm py-32 xl:py-52 px-12"
     >
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop muted playsInline>
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
         <source src="../ClientVideoBg.mp4" type="video/mp4" />
       </video>
 
@@ -46,98 +53,97 @@ const Clients = () => {
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
-          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-6 md:grid-rows-1 gap-10">
-            <div>
+          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-9 md:grid-rows-1 gap-y-10 gap-x-5 xl:gap-x-8 2xl:gap-x-10">
+            <div className="mt-9">
               <Image
-                className="mt-6"
                 src={Airfrance}
                 alt="Client Image"
-                width={180}
-                height={180}
+                width={150}
+                height={150}
               />
             </div>
+            <div className="mt-5">
+              <Image src={totalene} alt="Client Image" width={70} height={70} />
+            </div>
+            <div className="mt-6">
+              <Image src={AS24} alt="Client Image" width={80} height={80} />
+            </div>
+            <div className="mt-5">
+              <Image src={lcl1} alt="Client Image" width={80} height={80} />
+            </div>
+            <div className="mt-6">
+              <Image src={master} alt="Client Image" width={70} height={70} />
+            </div>
+            <div className="mt-6">
+              <Image src={kesato} alt="Client Image" width={160} height={160} />
+            </div>
+            <div className="mt-7">
+              <Image src={imani} alt="Client Image" width={100} height={100} />
+            </div>
+
             <div>
               <Image
-                className="ml-3"
-                src={totalene}
-                alt="Client Image"
-                width={90}
-                height={90}
-              />
-            </div>
-            <div>
-              <Image src={AS24} alt="Client Image" width={100} height={100} />
-            </div>
-            <div>
-              <Image
-                className="ml-4"
-                src={lcl1}
+                src={alDiwan}
                 alt="Client Image"
                 width={100}
                 height={100}
               />
             </div>
-            <div>
-              <Image src={master} alt="Client Image" width={90} height={90} />
-            </div>
-            <div>
+            <div className="mt-5">
               <Image
-                className="ml-3 mt-2"
-                src={kesato}
+                src={cafe}
                 alt="Client Image"
-                width={160}
-                height={160}
+                width={100}
+                height={100}
               />
             </div>
           </div>
         </div>
 
-        <div className="col-span-2 row-span-1 col-start-1 md:col-start-2">
+        <div className="col-span-2 row-span-1 col-start-1 md:col-start-2 py-7">
           <h1 className="text-sm font-textFamily">&#9679;&emsp;Partners</h1>
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
-          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-6 md:grid-rows-1 gap-10">
-            <div>
+          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-8 md:grid-rows-1 gap-y-10 gap-x-1 xl:gap-x-2 2xl:gap-x-4">
+            <div className="mt-1">
               <Image
-                className="row-start-1 mt-3"
                 src={fb}
                 alt="Client Image"
-                width={175}
-                height={175}
+                width={165}
+                height={165}
               />
             </div>
-            <div>
+            <div className="ml-16">
               <Image
-                className="ml-2"
                 src={figma}
                 alt="Client Image"
-                width={100}
-                height={100}
+                width={80}
+                height={80}
               />
             </div>
-            <div>
+            <div className="mt-2 ml-12">
               <Image src={Gsuit} alt="Client Image" width={80} height={80} />
             </div>
-            <div>
+            <div className="mt-1">
               <Image
                 className="ml-2"
                 src={google}
                 alt="Client Image"
-                width={175}
-                height={175}
+                width={155}
+                height={155}
               />
             </div>
-            <div>
-              <Image src={miro} alt="Client Image" width={90} height={90} />
+            <div className="mt-1 ml-10">
+              <Image src={miro} alt="Client Image" width={70} height={70} />
             </div>
             <div>
               <Image
                 className="ml-2 mt-2  "
                 src={roadmunk}
                 alt="Client Image"
-                width={160}
-                height={160}
+                width={140}
+                height={140}
               />
             </div>
           </div>
