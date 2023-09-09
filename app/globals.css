@@ -25,15 +25,22 @@
   -webkit-text-stroke: 0.3px #f1f1f1;
 }
 .clientbg {
-  background: url(../assets/bg/ClientBg.svg);
-  background-size: cover;
-  background-color: #101010;
-  background-repeat: no-repeat;
+  /* background: url(../assets/bg/ClientBg.svg);
+  background-size: cover; */
+  /* background-color: #101010; */
+  /* background-repeat: no-repeat;
   background-position: top top;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
+
+/* .ClientBgVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+} */
 .introbg {
-  background: url(../assets/bg/IntroBg.svg);
+  background: url(../assets/bg/ProjectBg.svg);
   background-size: cover;
   background-color: #101010;
   background-repeat: no-repeat;
@@ -76,7 +83,9 @@
   .about3 {
     background-position: center center;
   }
-
+  #Projects {
+    background-position: top center;
+  }
   .about-2 {
     background: url(../assets/bg/About2.svg);
     background-color: #101010;
@@ -88,17 +97,6 @@
     background: url(../assets/bg/About3.svg);
     background-color: #101010;
     background-repeat: no-repeat;
-    background-position: center center;
-  }
-
-  .about2half {
-    background: url(../assets/bg/About2Half.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 30%;
-  }
-  .clientbg {
     background-position: center center;
   }
 }
@@ -176,6 +174,7 @@
   width: auto;
   height: 20vh;
   overflow: hidden;
+  z-index: 1;
 }
 .marquee {
   margin: 0 auto;
@@ -192,11 +191,11 @@
 .marquee span {
   display: inline-block;
   padding-left: 100%;
-  animation: marquee 60s linear infinite;
+  animation: marquee 80s linear infinite;
 }
 
 .marquee2 span {
-  animation-delay: 20s;
+  animation-delay: 40s;
 }
 
 @keyframes marquee {
@@ -212,23 +211,27 @@
   .marquee span {
     display: inline-block;
     padding-left: 100%;
-    animation: marquee 30s linear infinite;
+    animation: marquee 40s linear infinite;
   }
   .marquee2 span {
-    animation-delay: 15s;
+    animation-delay: 20s;
   }
 }
 @media only screen and (max-width: 800px) {
   .marquee span {
     display: inline-block;
     padding-left: 100%;
-    animation: marquee 35s linear infinite;
+    animation: marquee 40s linear infinite;
   }
   .marquee2 span {
-    animation-delay: 17.5s;
+    animation-delay: 20s;
   }
 }
-
+@media only screen and (max-width: 400px) {
+  .sayhello {
+    width: 40vw;
+  }
+}
 
 .fixed-modal {
   position: fixed;
@@ -245,9 +248,9 @@
 
 .modal-content {
   width: 60%;
-  max-width: 60rem; 
+  max-width: 60rem;
   height: 90%;
-  max-height: 90vh; 
+  max-height: 90vh;
   background-color: black;
   border-radius: 1rem;
   padding: 1rem;
@@ -264,16 +267,25 @@
   border-radius: 0.25rem;
   cursor: pointer;
 }
-.modalbg{
+.modalbg {
   background: url(../assets/bg/ModalBg.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-color: black;
   background-size: 60%;
+  z-index: 100;
 }
 
-@media only screen and (min-width : 1300px) {
-  .regulatory{
+@media only screen and (min-width: 1300px) {
+  .regulatory {
     margin-top: 1rem;
   }
+}
+
+#Projects {
+  background: url("../assets/bg/ProjectBg.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom center;
+  background-attachment: fixed;
 }

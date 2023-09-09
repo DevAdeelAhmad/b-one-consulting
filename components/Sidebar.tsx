@@ -8,9 +8,9 @@ const Sidebar = () => {
 
   const sections = [
     "Introduction",
-    "About Us",
     "Services",
     "Projects",
+    "About Us",
     "Clients & Partners",
     "Contact",
   ];
@@ -71,9 +71,9 @@ const Sidebar = () => {
             key={section}
             className={`${
               activeSection === section
-                ? "text-white font-semibold text-lg"
-                : "text-gray-200 text-md"
-            } hover:text-gray-100 hover:text-lg transition cursor-pointer`}
+                ? "text-white font-semibold"
+                : "text-textSecondary"
+            } hover:text-gray-100 transition cursor-pointer`}
             onClick={() => handleSectionClick(section)}
           >
             <div className="flex items-center">
@@ -86,8 +86,8 @@ const Sidebar = () => {
               </span>
               <div
                 className={`${
-                  activeSection === section ? "h-[5px]" : "h-[1px]"
-                } flex-grow w-8 bg-blue-500`}
+                  activeSection === section ? "h-[3px] bg-[#2C33D6]" : "h-[2px] bg-blue-600"
+                } flex-grow w-8 rounded-full`}
               />
             </div>
           </li>

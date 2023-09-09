@@ -3,11 +3,11 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="banner">
-      <p className="marquee">
-        <span>Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti -&nbsp;</span>
+      <p className="marquee uppercase">
+        <span>dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï-&nbsp;</span>
       </p>
-      <p className="marquee marquee2">
-        <span>Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti Hac ita persuasione reducti -&nbsp;</span>
+      <p className="marquee marquee2 uppercase">
+        <span>dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï paris bali dubaï-&nbsp;</span>
       </p>
     </div>
   );

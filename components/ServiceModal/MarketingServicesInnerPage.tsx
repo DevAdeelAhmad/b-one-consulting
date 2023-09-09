@@ -7,7 +7,7 @@ import contentcre from "@/assets/bg/contentcreation.svg";
 
 const MarketingServicesInnerPage = () => {
   return (
-    <section className="w-full h-screen text-left bg-black text-textPrimary text-sm pb-10 pt-16 md:px-12 px-5">
+    <section className="w-full h-screen text-left bg-black text-textPrimary text-sm pb-10 pt-5 md:pt-16 md:px-12 px-5">
       <div className="w-full grid grid-cols-4 gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-28">
         <div className="col-start-1 col-span-4 md:row-start-1 md:col-start-2 md:col-span-2">
           <h3 className="uppercase font-Titillium text-2xl xl:text-3xl">Strategic Marketing</h3>

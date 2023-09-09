@@ -69,9 +69,8 @@ const Intro = () => {
         </div>
 
         <div
-          className={`${
-            menuOpen ? "block" : "hidden"
-          } md:hidden fixed inset-0 bg-[#101010]`}
+          className={`${menuOpen ? "block" : "hidden"
+            } md:hidden fixed inset-0 bg-[#101010]`}
         >
           <div className="flex flex-col justify-top h-full items-end py-10 pr-5 space-y-6">
             <Link href="/" onClick={handleMenuToggle}>
@@ -131,9 +130,9 @@ const Intro = () => {
           </div>
         </div>
 
-        <div className="col-span-4 hidden lg:inline-grid row-span-1 md:col-span-11 grid-cols-4 md:grid-cols-12 gap-5">
+        <div className="col-span-4 hidden lg:inline-grid row-span-1 md:col-span-11 grid-cols-4 md:grid-cols-12">
           <div className="col-span-2 col-start-1">
-            <Link href="#About Us">
+            <Link href="#Services">
               <p className="text-textPrimary font-Prompt text-[16px] inline">
                 Scroll for more&emsp;
                 <svg

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+
+
 import Airfrance from "@/assets/clients/Airfrance.svg";
 import AS24 from "@/assets/clients/AS24.svg";
 import kesato from "@/assets/clients/kesato.svg";
@@ -18,9 +20,14 @@ const Clients = () => {
   return (
     <section
       id="Clients & Partners"
-      className="w-full clientbg text-textPrimary text-sm py-32 xl:py-52 px-12"
+      className="w-full relative text-textPrimary text-sm py-32 xl:py-52 px-12"
     >
-      <div className="w-full grid grid-cols-4 grid-rows-10 gap-y-5 md:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover" autoPlay loop muted playsInline>
+        <source src="../ClientVideoBg.mp4" type="video/mp4" />
+      </video>
+
+      <div className="w-full relative z-10 grid grid-cols-4 grid-rows-10 gap-y-5 md:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
         <div
           className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1
         inline-grid md:grid-cols-12 md:grid-rows-1"

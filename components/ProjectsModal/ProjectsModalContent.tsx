@@ -26,11 +26,13 @@ const ProjectsModalContent: React.FC<ProjectsModalContent> = ({ onClose }) => {
     }
   };
   return (
-    <div className="absolute left-0 right-0 bottom-0 h-[90vh] z-50 rounded-xl border-2 border-textSecondary  overflow-y-hidden overflow-x-hidden flex justify-center items-center bg-black">
+    <div className="absolute left-0 right-0 bottom-0 h-[90vh] z-50 rounded-xl border-2 border-textSecondary
+    overflow-y-hidden overflow-x-hidden flex justify-center items-center bg-black">
       <div className="flex justify-center items-center">
-        <div className={`bg-black  ${activeTab != "" ? 'modalbg1' : 'modalbg'} rounded-xl w-[75vw] h-screen grid grid-cols-1 place-content-center overflow-y-auto`}>
-          <div className="flex flex-col justify-center w-[60vw]">
-            <ul className={`space-y-7 ml-14 lg:ml-10 xl:ml-[11.3rem] ${activeTab != "" ? 'hidden' : 'block'}`}>
+        <div className={`bg-black  ${activeTab != "" ? 'modalbg1' : 'modalbg'} rounded-xl
+        h-screen grid grid-cols-1 place-content-center overflow-y-auto`}>
+          <div className="flex flex-col justify-center w-[55vw]">
+            <ul className={`space-y-7 ml-4 mr-4 lg:ml-32 lg:mr-32  ${activeTab != "" ? 'hidden' : 'block'}`}>
               <hr className="text-textPrimary border-textPrimary" />
               <li className="text-left text-white flex items-center justify-between" onClick={() => handleTabChange("Project1")}>
                 <button className="text-white text-sm md:text-lg hover:text-gray-300 uppercase">Project #1</button>

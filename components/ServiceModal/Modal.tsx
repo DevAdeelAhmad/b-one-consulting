@@ -8,32 +8,32 @@ const ServicesModal = () => {
 
   const sections = [
     "Introduction",
-    "About Us",
     "Services",
     "Projects",
+    "About Us",
     "Clients & Partners",
     "Contact",
   ];
 
-const handleScroll = () => {
-  const scrollY = window.scrollY;
-  const windowHeight = window.innerHeight;
-  const middleOfViewport = scrollY + windowHeight / 2;
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const middleOfViewport = scrollY + windowHeight / 2;
 
-  const sectionInView = sections.find((section) => {
-    const targetElement = document.getElementById(section);
-    if (targetElement) {
-      const sectionTop = targetElement.offsetTop;
-      const sectionBottom = sectionTop + targetElement.clientHeight;
-      return (
-        middleOfViewport >= sectionTop && middleOfViewport <= sectionBottom
-      );
-    }
-    return false;
-  });
+    const sectionInView = sections.find((section) => {
+      const targetElement = document.getElementById(section);
+      if (targetElement) {
+        const sectionTop = targetElement.offsetTop;
+        const sectionBottom = sectionTop + targetElement.clientHeight;
+        return (
+          middleOfViewport >= sectionTop && middleOfViewport <= sectionBottom
+        );
+      }
+      return false;
+    });
 
-  setActiveSection(sectionInView || null);
-};
+    setActiveSection(sectionInView || null);
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -61,20 +61,20 @@ const handleScroll = () => {
 
   return (
     <section
-      className={`${
-        activeSection === "Services"
-          ? "pr-2 md:pr-12 fixed w-screen bottom-10 h-16 md:h-24 inline-grid grid-cols-4 md:grid-cols-12 grid-rows-1"
+      className={`${activeSection === "Services"
+          ? "fixed w-screen bottom-10 h-16 md:h-20 inline-grid pr-10 md:pr-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
           : "hidden"
-      }`}
+        }`}
     >
       <div
-        className="section-with-modal md:col-start-2 flex items-center justify-end pr-10 col-span-4 md:col-span-12 rounded-3xl border text-right border-textSecondary w-10/12"
+        className="section-with-modal col-start-1 bg-black md:col-start-3 flex items-center justify-end pr-10
+        col-span-4 md:col-span-9 rounded-3xl border text-right border-textSecondary w-10/12"
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <span className="text-base text-right">
+        <span className="text-sm 2xl:text-base text-right text-textPrimary">
           {activeSection === "Services" ? "OUR SERVICES" : "OUR PROJECTS"}
         </span>
-        <button className="font-semibold text-base ml-5" onClick={openModal}>
+        <button className="font-semibold text-sm 2xl:text-base ml-5" onClick={openModal}>
           OPEN
         </button>
         {isModalOpen && <ServicesModalContent onClose={closeModal} />}

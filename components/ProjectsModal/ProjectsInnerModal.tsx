@@ -4,10 +4,10 @@ import Laptop from '@/assets/ServicesLaptopImg.svg'
 
 const ProjectsInnerModal = () => {
   return (
-    <div className="w-full text-left h-screen bg-black text-textPrimary text-sm pt-20 px-12">
-      <div className="w-full grid grid-cols-4 gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-[25vh]">
-        <div className="col-start-1 col-span-4 row-start-1 md:col-start-2 md:col-span-6">
-          <h3 className="uppercase text-base font-Titillium md:text-2xl xl:text-3xl 2xl:text-4xl">
+    <div className="w-full text-left h-screen bg-black font-Prompt text-textPrimary text-sm pb-10 pt-5 md:pt-16 px-5 md:px-12">
+      <div className="w-full grid grid-cols-4 grid-flow-row gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-36">
+        <div className="col-start-1 col-span-4 row-start-1 md:col-start-2 md:col-span-4">
+          <h3 className="uppercase text-xl font-Titillium md:text-2xl xl:text-3xl">
             luxury & premium website for imani
           </h3>
         </div>

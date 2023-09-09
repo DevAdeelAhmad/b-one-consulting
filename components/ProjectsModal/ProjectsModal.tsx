@@ -8,9 +8,9 @@ const ProjectsModal = () => {
 
   const sections = [
     "Introduction",
-    "About Us",
     "Services",
     "Projects",
+    "About Us",
     "Clients & Partners",
     "Contact",
   ];
@@ -62,19 +62,20 @@ const ProjectsModal = () => {
   return (
     <section
       className={`${activeSection === "Projects"
-          ? "fixed w-screen bottom-10 h-16 md:h-24 inline-grid ml-10 md:ml-0 md:pl-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
+          ? "fixed w-screen bottom-10 h-16 md:h-20 inline-grid ml-10 md:ml-0 md:pl-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
           : "hidden"
         }`}
     >
       <div
-        className="section-with-modal col-start-1 md:col-start-2 flex items-center justify-end pr-10 col-span-4 md:col-span-12 rounded-3xl border text-right border-textSecondary w-10/12"
+        className="section-with-modal col-start-1 bg-black md:col-start-3 flex items-center justify-end pr-10
+        col-span-4 md:col-span-9 rounded-3xl border text-right border-textSecondary w-10/12"
         style={{ backdropFilter: "blur(10px)" }}
       >
-        <span className="text-base text-right text-textPrimary">
+        <span className="text-sm 2xl:text-base text-right text-textPrimary">
           {activeSection === "Projects" ? "OUR PROJECTS" : "OUR SERVICES"}
         </span>
         <button
-          className="font-semibold text-textPrimary text-base ml-5"
+          className="font-semibold text-textPrimary text-sm 2xl:text-base ml-5"
           onClick={openModal}
         >
           OPEN
