@@ -7,9 +7,9 @@ import Video from '@/assets/DigitalVideo.png'
 const DigitalServicesInnerPage = () => {
   return (
     <>
-      <div className="w-full text-left font-Prompt h-screen bg-black text-textPrimary text-sm pb-10 pt-10 px-4 md:px-10">
+      <div className="w-full text-left font-Prompt h-screen bg-black text-textPrimary text-sm pb-10 pt-10 px-4 md:px-0 md:pr-10">
         <div className="w-full grid grid-cols-4 gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 grid-flow-row pb-20">
-          <div className='w-full h-2/5 col-span-12 row-start-1'>
+          <div className='md:w-full md:h-2/5 col-span-4 md:col-span-12 row-start-1'>
             <Image src={Video} alt='Video Image' width={2000} height={2000} />
           </div>
           <div className="col-start-1 col-span-9 row-start-2 md:col-start-2 md:col-span-6">
@@ -146,7 +146,7 @@ const DigitalServicesInnerPage = () => {
             </p>
           </div>
         </div>
-        <div className="fixed bottom-8 uppercase left-16">
+        <div className="fixed hidden md:flex bottom-8 uppercase left-16">
           <span className="text-lg mr-4 font-light text-white">Digital Solution</span>
         </div>
       </div>
