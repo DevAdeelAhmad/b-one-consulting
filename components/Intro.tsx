@@ -73,7 +73,7 @@ const Intro = () => {
             } md:hidden fixed inset-0 bg-[#101010]`}
         >
           <div className="flex flex-col justify-top h-full items-end py-10 pr-5 space-y-6">
-            <Link href="/" onClick={handleMenuToggle}>
+            <p onClick={handleMenuToggle}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -88,7 +88,7 @@ const Intro = () => {
                   d="M6 18L18 6M6 6l12 12"
                 />
               </svg>
-            </Link>
+            </p>
             <Link href="#Introduction" onClick={handleMenuToggle}>
               <p className="text-blue-500">Introduction</p>
             </Link>
