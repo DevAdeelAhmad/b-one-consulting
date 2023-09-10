@@ -5,12 +5,12 @@ const EmailForm = () => {
     <section className="w-full px-7 md:px-12 text-textPrimary text-sm py-20 bg-[#101010]">
       <div className="grid grid-cols-4 grid-rows-10 md:grid-cols-12 gap-10">
         <div className="col-start-1 col-span-4 row-span-1 md:col-span-12 md:row-span-1 inline-grid grid-cols-4 md:grid-cols-12">
-          <div className="col-span-4 text-left md:col-span-6">
-            <h1 className="uppercase text-6xl font-Titillium xl:text-8xl font-headingFamily 2xl:text-[140px] font-light">
+          <div className="col-span-4 text-left md:col-span-6 col-start-1 md:col-start-2">
+            <h1 className="uppercase text-5xl md:text-6xl lg:text-7xl lg:font-medium font-Titillium xl:text-8xl 2xl:text-9xl font-light">
               Get in touch
             </h1>
           </div>
-          <div className="col-span-0 md:col-start-7 md:col-span-5 mt-9 hidden lg:grid">
+          <div className="col-span-0 md:col-start-8 md:col-span-4 mt-9 lg:mt-10 xl:mt-16 2xl:mt-20 hidden lg:grid">
             <p className="uppercase text-2xl">
               <span className="text-md font-Prompt font-textFamily">
                 tell us more &emsp;
@@ -35,7 +35,7 @@ const EmailForm = () => {
 
         <div className="col-span-4 md:col-span-11 row-span-1 inline-grid grid-cols-4 md:grid-cols-12 gap-16">
           <div className="col-span-4 col-start-1 md:col-start-2 md:col-span-3">
-            <p className="uppercase text-lg font-Prompt font-headingFamily">
+            <p className="uppercase text-base 2xl:text-lg font-Prompt font-light">
               for any enquiries, or just say hello, contact us through this form
             </p>
           </div>
