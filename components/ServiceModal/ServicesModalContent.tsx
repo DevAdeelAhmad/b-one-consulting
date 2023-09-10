@@ -31,7 +31,7 @@ const ServicesModalContent: React.FC<ServicesModalContentProps> = ({ onClose }) 
   };
 
   return (
-    <div className="absolute left-0 right-0 bottom-0 h-[90vh] z-50 rounded-xl border-2 border-textSecondary
+    <div className="absolute left-0 right-0 w-[105%] md:w-[100%] bottom-0 h-[90vh] z-50 rounded-xl border-2 border-textSecondary
     overflow-y-hidden overflow-x-hidden flex justify-center items-center bg-black">
       <div className="flex justify-center items-center">
         <div className={`bg-black  ${activeTab != "" ? 'modalbg1' : 'modalbg'} rounded-xl
