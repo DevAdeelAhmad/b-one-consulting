@@ -9,7 +9,7 @@ import Services from "@/components/Services";
 export default function Home() {
   return (
     <>
-      <main className="bg-[#101010]">
+      <main className="bg-[#101010] font-Prompt">
         <Intro />
         <Services />
         <Projects />
