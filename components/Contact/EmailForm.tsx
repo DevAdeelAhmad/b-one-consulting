@@ -2,7 +2,7 @@ import React from "react";
 
 const EmailForm = () => {
   return (
-    <section className="w-full px-7 md:px-12 text-textPrimary text-sm py-20 bg-[#101010]">
+    <section className="w-full px-7 md:px-12 text-textPrimary text-sm py-20 mt-20 md:mt-0 bg-[#101010]">
       <div className="grid grid-cols-4 grid-rows-10 md:grid-cols-12 gap-10">
         <div className="col-start-1 col-span-4 row-span-1 md:col-span-12 md:row-span-1 inline-grid grid-cols-4 md:grid-cols-12">
           <div className="col-span-4 text-left md:col-span-6 col-start-1 md:col-start-2">
