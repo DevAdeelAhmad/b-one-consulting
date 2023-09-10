@@ -41,7 +41,7 @@ const EmailForm = () => {
           </div>
 
           <div className="col-span-4 md:col-span-8 font-Prompt inline-grid grid-cols-4 md:grid-cols-12 grid-flow-row gap-10">
-            <div className="col-span-4 md:col-span-6 col-start-1 flex flex-col gap-10 font-headingFamily">
+            <div className="col-span-4 md:col-span-6 col-start-1 flex flex-col gap-10 font-Titillium row-start-1">
               <div className="fullNameField flex flex-col">
                 <label
                   className="uppercase text-textSecondary text-sm font-light"
@@ -118,8 +118,8 @@ const EmailForm = () => {
                 />
               </div>
             </div>
-            <div>
-              <button className="border-[1px] hidden md:flex items-center justify-center rounded-2xl w-36 h-8 border-[#2C33D6] text-[#2C33D6] bg-transparent hover:bg-[#2C33D6] hover:text-white">
+            <div className="row-start-4">
+              <button className="border-[1px] flex items-center justify-center rounded-2xl w-36 h-8 border-[#2C33D6] text-[#2C33D6] bg-transparent hover:bg-[#2C33D6] hover:text-white">
                 SUBMIT
               </button>
             </div>
