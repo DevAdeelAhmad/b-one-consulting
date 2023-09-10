@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const DataServicesInnerPage = () => {
   return (
-    <div className="w-full text-left h-screen bg-black font-Prompt text-textPrimary text-sm pb-10 pt-5 md:pt-16 px-5 md:px-12">
+    <div className="w-full text-left h-screen bg-black font-Prompt text-textPrimary text-sm pb-10 pt-5 md:pt-16 px-0 md:px-12">
       <div className="w-full grid grid-cols-4 grid-flow-row gap-y-8 gap-x-3 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-36">
         <div className="col-start-1 col-span-4 row-start-1 md:col-start-2 md:col-span-4">
           <h3 className="uppercase text-xl font-Titillium md:text-2xl xl:text-3xl">
@@ -22,7 +22,7 @@ const DataServicesInnerPage = () => {
           </p>
         </div>
         <div className="col-start-1 col-span-4 row-start-3 md:col-start-2 md:col-span-6">
-          <p className="uppercase font-thin">The Benefits of Data Management</p>
+          <p className="uppercase text-textSecondary font-thin">The Benefits of Data Management</p>
         </div>
 
 
@@ -96,7 +96,7 @@ const DataServicesInnerPage = () => {
         </div>
 
         <div className="col-start-1 col-span-4 md:col-start-2 md:col-span-4 row-start-7 pt-5 pb-5">
-          <p className="uppercase font-thin">The Benefits of Data Management</p>
+          <p className="uppercase text-textSecondary font-thin">The Benefits of Data Management</p>
         </div>
 
 
@@ -141,10 +141,13 @@ const DataServicesInnerPage = () => {
 
           </div>
           <div className="col-start-8 md:row-start-1 row-start-2 col-span-4 md:col-span-4">
-            <Image src={innerser2} alt="Service Image 1" width={400} height={400} />
+            <Image className="pt-12 md:pt-0" src={innerser2} alt="Service Image 1" width={400} height={400} />
           </div>
         </div>
       </div>
+      <div className="fixed hidden md:flex bottom-8 uppercase left-16">
+          <span className="text-lg mr-4 font-light text-white">Data Solution</span>
+        </div>
     </div>
   );
 };
