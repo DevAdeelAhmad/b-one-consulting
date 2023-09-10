@@ -18,10 +18,10 @@ const Sidebar = () => {
   const handleSectionClick = (section: string) => {
     const targetElement = document.getElementById(section);
     if (targetElement) {
-      const yOffset = -50;
+      const yOffset = 10;
       const y =
         targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
-      window.scrollTo({ top: y, behavior: "smooth" });
+      window.scrollTo({ top: y - 10, behavior: "smooth" });
       setActiveSection(section);
     }
   };
