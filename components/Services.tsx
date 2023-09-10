@@ -53,10 +53,10 @@ const Services = () => {
         <div className="col-start-3 md:col-start-9 h-64 2xl:h-96 col-span-2 flex flex-col justify-between mt-10 md:mt-0 border-l border-solid border-textPrimary">
           <div className="h-[8rem]"></div>
           <div className="pl-3 text-textPrimary">
-            <h1 className="text-5xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium pb-4 lg:pb-2" >
+            <h1 className="text-5xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium pb-4 lg:pb-2">
               04
             </h1>
-            <p className="font-textFamily text-base md:text-lg lg:text-xl  font-Prompt uppercase xl:text-sm 2xl:text-xl xl:pt-3 xl:pb-24 2xl:pt-16">
+            <p className="font-textFamily text-base md:text-lg lg:text-xl 2xl:text-xl font-Prompt uppercase xl:pt-3 xl:pb-24 2xl:pt-16">
               Marketing & Branding
             </p>
           </div>

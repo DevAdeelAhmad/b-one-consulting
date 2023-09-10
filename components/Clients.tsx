@@ -22,7 +22,7 @@ const Clients = () => {
   return (
     <section
       id="Clients & Partners"
-      className="w-full relative h-[110vh] md:h-[100vh] border border-textSecondary text-textPrimary text-sm pt-12 px-12 flex flex-col justify-evenly"
+      className="w-full relative h-[110vh] md:h-[100vh] text-textPrimary text-sm pt-12 px-12 flex flex-col justify-evenly"
     >
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
