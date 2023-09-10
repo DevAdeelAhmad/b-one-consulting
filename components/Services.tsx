@@ -16,7 +16,7 @@ const Services = () => {
         </div>
         <div className="col-start-1 md:col-start-3 h-64 2xl:h-96 col-span-2 flex flex-col justify-between border-l border-solid border-textPrimary">
           <div className="h-[8rem]"></div>
-          <div className="pl-3 text-textPrimary flex flex-col gap-y-0 md:gap-y-4">
+          <div className="pl-3 text-textPrimary flex flex-col gap-y-0 md:gap-y-5">
             <h1 className="text-5xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium pb-10 lg:pb-2 xl:pb-0">
               01
             </h1>
