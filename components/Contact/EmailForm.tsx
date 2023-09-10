@@ -35,7 +35,7 @@ const EmailForm = () => {
 
         <div className="col-span-4 md:col-span-11 row-span-1 inline-grid grid-cols-4 md:grid-cols-12 gap-16">
           <div className="col-span-4 col-start-1 md:col-start-2 md:col-span-3">
-            <p className="uppercase text-base 2xl:text-lg font-Prompt font-light">
+            <p className="uppercase text-base xl:text-lg font-Prompt font-light">
               for any enquiries, or just say hello, contact us through this form
             </p>
           </div>

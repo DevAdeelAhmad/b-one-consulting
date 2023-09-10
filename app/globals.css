@@ -24,21 +24,7 @@
   color: #101010;
   -webkit-text-stroke: 0.3px #f1f1f1;
 }
-.clientbg {
-  /* background: url(../assets/bg/ClientBg.svg);
-  background-size: cover; */
-  /* background-color: #101010; */
-  /* background-repeat: no-repeat;
-  background-position: top top;
-  background-attachment: fixed; */
-}
 
-/* .ClientBgVideo{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-} */
 .introbg {
   background: url(../assets/bg/ProjectBg.svg);
   background-size: cover;
@@ -62,20 +48,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+.about21 {
+  background: url(../assets/bg/About2.svg);
+  background-size: cover;
+  background-color: #101010;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
 
 @media only screen and (max-width: 640px) {
-  .about1bg {
-    /* background: url(../assets/bg/About1Png.png); */
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 100%;
-  }
   .introbg {
     background-position: top center;
-  }
-  .about2 {
-    background-position: center center;
   }
   .about4 {
     background-position: center center;
@@ -83,15 +68,11 @@
   .about3 {
     background-position: center center;
   }
+  .about21 {
+    background-position: center center;
+  }
   #Projects {
     background-position: top center;
-  }
-  .about-2 {
-    background: url(../assets/bg/About2.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: 80%;
-    background-size: cover;
   }
   .about-3 {
     background: url(../assets/bg/About3.svg);
@@ -99,10 +80,27 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
+  .about21 {
+    background: url(../assets/bg/About2.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .about-21 {
+    background: url(../assets/bg/About2.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 300%;
+  }
 }
 @media only screen and (min-width: 641px) {
-  .about-1 {
-    background: #101010;
+  .about1 {
+    background: url(../assets/bg/About1.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 90%;
   }
   .about3 {
     background: url(../assets/bg/About3.svg);
@@ -111,27 +109,22 @@
     background-position: left center;
     background-size: 70%;
   }
-  .about1 {
-    background: url(../assets/bg/About1.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 90%;
+  .about-3 {
+    background: #101010;
   }
-  .about2 {
+  .about21 {
     background: url(../assets/bg/About2.svg);
     background-color: #101010;
     background-repeat: no-repeat;
     background-position: right center;
-    background-size: 60%;
+    background-size: 140%;
   }
-  .about-3 {
-    background: #101010;
-  }
-  .about2half {
+  .about-21 {
     background: #101010;
   }
 }
+
+
 
 @media only screen and (min-width: 1700px) {
   .fixedNav {
@@ -281,11 +274,3 @@
     margin-top: 1rem;
   }
 }
-
-/* #Projects {
-  background: url("../assets/bg/ProjectBg.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: bottom center;
-  background-attachment: fixed;
-} */
