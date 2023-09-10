@@ -65,7 +65,7 @@
 
 @media only screen and (max-width: 640px) {
   .about1bg {
-    background: url(../assets/bg/About1Png.png);
+    /* background: url(../assets/bg/About1Png.png); */
     background-color: #101010;
     background-repeat: no-repeat;
     background-position: left center;
