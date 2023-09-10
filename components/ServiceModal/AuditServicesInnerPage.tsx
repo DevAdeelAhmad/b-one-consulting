@@ -2,8 +2,8 @@ import React from 'react'
 
 const AuditServicesInnerPage = () => {
   return (
-    <section className="w-full bg-black text-left h-screen text-textPrimary text-sm pb-10 pt-4 md:pt-20 px-4 md:px-36">
-      <div className="w-full grid font-Prompt grid-cols-4 grid-flow-row gap-y-5 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-20">
+    <section className="w-full bg-black text-left h-screen text-textPrimary text-sm pb-10 pt-0 md:pt-16 px-0 md:px-20">
+      <div className="w-full grid font-Prompt grid-cols-4 grid-flow-row gap-y-5 md:gap-y-10 md:grid-cols-12 md:grid-flow-row pb-56">
         <div className="col-start-1 col-span-3 row-start-1 md:col-start-1 md:col-span-6 pt-10">
           <h1 className="md:text-4xl text-xl uppercase font-Titillium">Why conduct an audit?</h1>
         </div>
@@ -69,13 +69,16 @@ const AuditServicesInnerPage = () => {
         <div className="row-start-11 col-start-1 col-span-3 md:row-start-6 md:col-start-3 md:col-span-2">
           <p className="md:text-lg text-base uppercase">implementation and execution </p>
         </div>
-        <div className="row-start-12 col-start-1 col-span-4 md:row-start-6 md:col-start-7 md:col-span-8 text-xs md:text-sm pb-20">
+        <div className="row-start-12 col-start-1 col-span-4 md:row-start-6 md:col-start-7 md:col-span-8 text-xs md:text-sm">
           <p className="font-thin">
             Once the recommendations have been communicated, the next step is to
             implement them. This involves planning actions, allocating
             resources, monitoring progress, and making adjustments if necessary.
           </p>
         </div>
+      </div>
+      <div className="fixed hidden md:flex bottom-8 uppercase left-16">
+        <span className="text-lg mr-4 font-light text-white">Audit & Consulting Services</span>
       </div>
     </section>
   )

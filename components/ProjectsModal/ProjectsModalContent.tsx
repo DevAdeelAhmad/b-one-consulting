@@ -1,4 +1,3 @@
-import Link from "next/link";
 import React, { useState } from "react";
 import ProjectsInner from "@/components/ProjectsModal/ProjectsInnerModal";
 
@@ -66,8 +65,8 @@ const ProjectsModalContent: React.FC<ProjectsModalContent> = ({ onClose }) => {
           </div>
           <div className="absolute top-0 overflow-y-auto">{getContentComponent()}</div>
           <div className="flex items-center justify-end absolute bottom-8 right-10">
-            <span className="text-lg mr-4 font-light text-white">Our Projects</span>
-            <button className="text-white text-lg font-semibold" onClick={onClose}>
+            <span className="text-lg mr-4 font-light text-white uppercase">Our Projects</span>
+            <button className="text-white text-lg font-semibold uppercase" onClick={onClose}>
               Close
             </button>
           </div>

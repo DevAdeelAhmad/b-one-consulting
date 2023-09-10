@@ -29,10 +29,10 @@ const Clients = () => {
           className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1
         inline-grid md:grid-cols-12 md:grid-rows-1"
         >
-          <h1 className="col-span-4 md:col-span-7 font-light lg:col-span-6 md:row-span-1 text-4xl uppercase font-Titillium">
+          <h1 className="col-span-4 md:col-span-7 font-light lg:col-span-6 md:row-span-1 text-4xl xl:text-5xl 2xl:text-6xl uppercase font-Titillium">
             Clients & Partners
           </h1>
-          <p className="col-span-4 md:col-span-5 lg:col-span-4 md:row-span-1 text-justify text-xs mt-2 font-extralight font-Prompt">
+          <p className="col-span-4 md:col-span-5 lg:col-span-5 md:row-span-1 text-justify text-sm lg:text-base 2xl:text-lg mt-2 font-extralight font-Prompt">
             The customer remains at the center of our concerns, becoming an
             actor of his success is our goal.
           </p>

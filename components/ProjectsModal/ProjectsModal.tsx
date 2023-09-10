@@ -62,8 +62,8 @@ const ProjectsModal = () => {
   return (
     <section
       className={`${activeSection === "Projects"
-          ? "fixed w-screen bottom-10 h-16 md:h-20 inline-grid ml-10 md:ml-0 md:pl-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
-          : "hidden"
+        ? "fixed w-screen bottom-10 h-16 md:h-20 inline-grid ml-10 md:ml-0 md:pl-12 grid-cols-4 md:grid-cols-12 grid-rows-1"
+        : "hidden"
         }`}
     >
       <div
