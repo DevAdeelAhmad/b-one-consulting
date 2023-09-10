@@ -22,7 +22,7 @@ const Clients = () => {
   return (
     <section
       id="Clients & Partners"
-      className="w-full relative text-textPrimary text-sm py-32 xl:py-52 px-12"
+      className="w-full relative h-[110vh] md:h-[100vh] border border-textSecondary text-textPrimary text-sm pt-12 px-12 flex flex-col justify-evenly"
     >
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
@@ -34,22 +34,22 @@ const Clients = () => {
         <source src="../ClientVideoBg.mp4" type="video/mp4" />
       </video>
 
-      <div className="w-full relative z-10 grid grid-cols-4 grid-rows-10 gap-y-5 md:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
+      <div className="w-full relative z-10 grid grid-cols-4 grid-rows-10 gap-y-5 lg:gap-y-16 gap-x-2 md:grid-cols-12 md:grid-flow-row">
         <div
           className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1
         inline-grid md:grid-cols-12 md:grid-rows-1"
         >
-          <h1 className="col-span-4 md:col-span-7 lg:col-span-6 md:row-span-1 text-4xl font-normal uppercase font-headingFamily">
+          <h1 className="col-span-4 md:col-span-7 font-light lg:col-span-6 md:row-span-1 text-4xl uppercase font-Titillium">
             Clients & Partners
           </h1>
-          <p className="col-span-4 md:col-span-5 lg:col-span-4 md:row-span-1 text-justify text-xs mt-2 font-extralight font-textFamily">
+          <p className="col-span-4 md:col-span-5 lg:col-span-4 md:row-span-1 text-justify text-xs mt-2 font-extralight font-Prompt">
             The customer remains at the center of our concerns, becoming an
             actor of his success is our goal.
           </p>
         </div>
 
         <div className="col-span-2 row-span-1 col-start-1 md:col-start-2">
-          <h1 className="text-sm font-textFamily">&#9679;&emsp;Clients</h1>
+          <h1 className="text-base font-Prompt">&#9679;&emsp;Clients</h1>
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
@@ -100,12 +100,13 @@ const Clients = () => {
           </div>
         </div>
 
-        <div className="col-span-2 row-span-1 col-start-1 md:col-start-2 py-7">
-          <h1 className="text-sm font-textFamily">&#9679;&emsp;Partners</h1>
+        <div className="col-span-2 row-span-1 col-start-1 md:col-start-2 py-7 md:py-1">
+          <h1 className="text-base font-Prompt">&#9679;&emsp;Partners</h1>
         </div>
 
         <div className="col-start-1 col-span-4 row-span-3 inline-grid md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
-          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-10 md:grid-cols-8 md:grid-rows-1 gap-y-10 gap-x-1 xl:gap-x-2 2xl:gap-x-4">
+          <div className="col-span-4 row-span-3 md:row-span-1 grid-cols-2 inline-grid md:col-start-2 md:col-span-12 md:grid-cols-7
+          md:grid-rows-1 gap-y-10 gap-x-1 xl:gap-x-2 2xl:gap-x-4">
             <div className="mt-1">
               <Image
                 src={fb}
@@ -114,7 +115,7 @@ const Clients = () => {
                 height={165}
               />
             </div>
-            <div className="ml-16">
+            <div className="ml-5 md:ml-16">
               <Image
                 src={figma}
                 alt="Client Image"
@@ -122,7 +123,7 @@ const Clients = () => {
                 height={80}
               />
             </div>
-            <div className="mt-2 ml-12">
+            <div className="mt-2 ml-0 md:ml-12">
               <Image src={Gsuit} alt="Client Image" width={80} height={80} />
             </div>
             <div className="mt-1">
@@ -134,7 +135,7 @@ const Clients = () => {
                 height={155}
               />
             </div>
-            <div className="mt-1 ml-10">
+            <div className="mt-1 ml-0 md:ml-10">
               <Image src={miro} alt="Client Image" width={70} height={70} />
             </div>
             <div>
