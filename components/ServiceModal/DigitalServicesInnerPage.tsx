@@ -146,6 +146,9 @@ const DigitalServicesInnerPage = () => {
             </p>
           </div>
         </div>
+        <div className="fixed bottom-8 uppercase left-16">
+          <span className="text-lg mr-4 font-light text-white">Digital Solution</span>
+        </div>
       </div>
     </>
   );
