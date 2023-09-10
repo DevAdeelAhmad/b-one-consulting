@@ -4,7 +4,7 @@ import project from "@/assets/bg/project1.svg";
 
 const Project3 = () => {
   return (
-    <section className="w-full bg-[#101010] text-textPrimary text-sm px-12">
+    <section className="w-full h-screen bg-[#101010] text-textPrimary mt-48 md:mt-0 text-sm px-12">
       <div className="w-full grid grid-cols-4 grid-rows-1 md:gap-y-16 md:grid-cols-12 md:grid-flow-row pb-20">
         <div className="justify-center col-start-1 col-span-4 md:col-start-8 pt-8">
           <Image src={project} alt="Mobile Screen Project Image" width={400} height={400} />
