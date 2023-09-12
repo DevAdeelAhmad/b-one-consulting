@@ -97,9 +97,9 @@ const ProjectsInnerModal = () => {
           </div>
         </div>
       </div>
-      <div className="fixed hidden md:flex bottom-8 uppercase left-16">
+      {/* <div className="fixed hidden md:flex bottom-8 uppercase left-16">
         <span className="text-lg mr-4 font-light text-white">Projects</span>
-      </div>
+      </div> */}
     </div>
   );
 }

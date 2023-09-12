@@ -19,6 +19,10 @@
   background: #555;
 }
 
+/* .blurred-background {
+  backdrop-filter: blur(0px);
+} */
+
 .font-border {
   font-weight: 800;
   color: #101010;
@@ -26,7 +30,7 @@
 }
 
 .introbg {
-  background: url(../assets/bg/ProjectBg.svg);
+  background: url(../assets/bg/IntroBg1.png);
   background-size: cover;
   background-color: #101010;
   background-repeat: no-repeat;
@@ -56,7 +60,6 @@
   background-position: center center;
   background-size: 100%;
 } */
-
 
 @media only screen and (max-width: 640px) {
   .introbg {
@@ -123,8 +126,6 @@
     background: #101010;
   } */
 }
-
-
 
 @media only screen and (min-width: 1700px) {
   .fixedNav {
@@ -273,4 +274,8 @@
   .regulatory {
     margin-top: 1rem;
   }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1300px) {
+
 }

@@ -32,7 +32,7 @@ const DigitalServicesInnerPage = () => {
 
           <div className="inline-grid col-start-1 row-start-4 md:col-start-2 col-span-9 md:col-span-12 grid-cols-4 grid-flow-row md:grid-rows-2
           md:grid-cols-12 gap-y-10">
-            <div className="col-start-1 col-span-4 md:col-span-6 row-start-1">
+            <div className="col-start-1 col-span-4 md:col-span-5 row-start-1">
               <div className="flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -86,9 +86,9 @@ const DigitalServicesInnerPage = () => {
               </ol>
             </div>
 
-            <div className="col-start-1 col-span-4 md:col-start-7 md:col-span-6 row-span-1 md:row-span-2">
+            <div className="col-start-1 col-span-4 md:col-start-7 md:col-span-5 row-span-1 md:row-span-2">
               <Image
-                className="w-[30rem] h-56 md:h-96"
+                className="w-[30cw] 2xl:w-[21vw] h-56 md:h-96"
                 src={Laptop}
                 alt="Digital Solution 1"
                 width={300}
@@ -183,7 +183,7 @@ const DigitalServicesInnerPage = () => {
               </ul>
             </div>
             <div className='flex-1'>
-              <Image className='h-[20vh] md:h-[32vh] w-[40vh] mt-10 lg:mt-0' src={Hand} alt='Digital Solution 3' width={300} height={300} />
+              <Image className='h-[35vh] md:h-[28vh] md:w-[30vw] lg:h-[20vh] xl:h-[30vh] w-[40vh] mt-10 lg:mt-0' src={Hand} alt='Digital Solution 3' width={300} height={300} />
             </div>
             <div className='flex-1 mt-10 lg:mt-0'>
               <ul className='text-textPrimary text-sm lg:text-[14.8px] 2xl:text-base flex flex-col gap-y-5 uppercase'>

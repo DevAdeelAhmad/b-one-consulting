@@ -18,7 +18,7 @@ const Sidebar = () => {
   const handleSectionClick = (section: string) => {
     const targetElement = document.getElementById(section);
     if (targetElement) {
-      const yOffset = 10;
+      const yOffset = 11;
       const y =
         targetElement.getBoundingClientRect().top + window.scrollY + yOffset;
       window.scrollTo({ top: y - 10, behavior: "smooth" });
@@ -58,9 +58,9 @@ const Sidebar = () => {
   }, []);
 
   return (
-    <nav className="hidden md:flex fixed top-20 right-10 z-10 p-4">
+    <nav className="hidden md:flex fixed top-20 right-10 z-[20] p-4">
       <ul
-        className={`flex flex-col items-end space-y-4 ${
+        className={`flex flex-col items-end space-y-3 ${
           isHovering ? "hovered" : ""
         }`}
         onMouseEnter={handleMouseEnter}
@@ -71,14 +71,14 @@ const Sidebar = () => {
             key={section}
             className={`${
               activeSection === section
-                ? "text-white font-semibold"
-                : "text-textSecondary"
+                ? "text-textPrimary font-semibold"
+                : "text-textPrimary opacity-70"
             } hover:text-gray-100 transition cursor-pointer`}
             onClick={() => handleSectionClick(section)}
           >
             <div className="flex items-center">
               <span
-                className={`mr-2 ${
+                className={`mr-4 tracking-wider text-[12px]  ${
                   isHovering ? "opacity-100" : "opacity-0"
                 } transition-opacity duration-300`}
               >
@@ -86,8 +86,10 @@ const Sidebar = () => {
               </span>
               <div
                 className={`${
-                  activeSection === section ? "h-[3px] bg-[#2C33D6]" : "h-[2px] bg-blue-600"
-                } flex-grow w-8 rounded-full`}
+                  activeSection === section
+                    ? "h-[2.5px] bg-textPrimary"
+                    : "h-[1.5px] bg-textPrimary bg-opacity-70"
+                } flex-grow w-6 rounded-full`}
               />
             </div>
           </li>

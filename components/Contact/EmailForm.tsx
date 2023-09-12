@@ -2,16 +2,17 @@ import React from "react";
 
 const EmailForm = () => {
   return (
-    <section className="w-full px-7 md:px-12 text-textPrimary text-sm py-20 mt-20 md:mt-0 bg-[#101010]">
+    <section className="w-full px-7 md:px-12 text-textPrimary text-sm py-20 sm:mt-20 md:mt-0 bg-[#101010]">
       <div className="grid grid-cols-4 grid-rows-10 md:grid-cols-12 gap-10">
-        <div className="col-start-1 col-span-4 row-span-1 md:col-span-12 md:row-span-1 inline-grid grid-cols-4 md:grid-cols-12">
-          <div className="col-span-4 text-left md:col-span-6 col-start-1 md:col-start-2">
-            <h1 className="uppercase text-5xl md:text-6xl lg:text-7xl lg:font-medium font-Titillium xl:text-8xl 2xl:text-9xl font-light">
-              Get in touch
+        <div className="col-start-1 col-span-4 row-span-1 row-start-1 md:col-span-12 md:row-span-1
+        inline-grid grid-rows-1 grid-cols-4 md:grid-cols-12">
+          <div className="col-span-4 text-left md:col-span-10 row-start-1 col-start-1 md:col-start-1">
+            <h1 className="uppercase text-[90px] xl:text-[140px] lg:font-medium font-Titillium font-light leading-[1]">
+              Get in <br className="block xl:hidden"/>touch
             </h1>
           </div>
-          <div className="col-span-0 md:col-start-8 md:col-span-4 mt-9 lg:mt-10 xl:mt-16 2xl:mt-20 hidden lg:grid">
-            <p className="uppercase text-2xl">
+          <div className="col-span-0 xl:col-start-9 2xl:col-start-8 md:col-span-4 row-start-1 mt-9 lg:mt-10 xl:mt-20 2xl:mt-20 hidden xl:grid">
+            <p className="uppercase text-[25px]">
               <span className="text-md font-Prompt font-textFamily">
                 tell us more &emsp;
               </span>
@@ -119,7 +120,10 @@ const EmailForm = () => {
               </div>
             </div>
             <div className="row-start-4">
-              <button className="border-[1px] flex items-center justify-center rounded-2xl w-36 h-8 border-[#2C33D6] text-[#2C33D6] bg-transparent hover:bg-[#2C33D6] hover:text-white">
+              <button
+                className="border-[1.5px] sayhello items-center justify-center rounded-2xl w-36 h-8
+            border-[#2C33D6] text-[#2C33D6] font-Prompt bg-[#2C33D6]/20 hover:bg-[#2C33D6]/50"
+              >
                 SUBMIT
               </button>
             </div>

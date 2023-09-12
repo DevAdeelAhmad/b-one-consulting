@@ -4,8 +4,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <section className="w-full px-12 hidden font-Prompt bg-gradient-to-t from-black via-black to-[#101010] opacity-90 md:block text-sm py-10">
-        <div className="flex justify-between">
+      <section className="w-full hidden font-Prompt bg-gradient-to-t from-black via-black to-[#101010] opacity-90 md:block text-sm py-10">
+        <div className="flex justify-evenly">
           <div>
             <ul className="text-textPrimary font-Prompt">
               <li className="text-textSecondary">Contact</li>

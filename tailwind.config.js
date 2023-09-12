@@ -16,6 +16,9 @@ module.exports = {
         Titillium: ['"Titillium Web"', ...defaultTheme.fontFamily.sans],
         Prompt: ['"Prompt"', ...defaultTheme.fontFamily.sans],
       },
+      screens: {
+        '3xl': "1921px"
+      }
     },
   },
   plugins: [],

@@ -21,7 +21,7 @@ const AuditServicesInnerPage = () => {
         </div>
 
 
-        <div className="row-start-4 col-start-1 flex items-center justify-center h-20 w-20 col-span-1 md:row-start-4 md:col-start-1 md:col-span-1 rounded-full bg-[#F1F1F1]">
+        <div className="row-start-4 col-start-1 flex items-center justify-center h-16 w-16 col-span-1 md:row-start-4 md:col-start-1 md:col-span-1 rounded-full bg-[#F1F1F1]">
           <p className="text-black flex text-center justify-center md:text-4xl text-xl font-normal">
             1
           </p>
@@ -39,7 +39,7 @@ const AuditServicesInnerPage = () => {
           </p>
         </div>
 
-        <div className="row-start-7 col-start-1 flex items-center justify-center h-20 w-20 col-span-1 md:row-start-5 md:col-start-1 md:col-span-1 rounded-full bg-[#F1F1F1]">
+        <div className="row-start-7 col-start-1 flex items-center justify-center h-16 w-16 col-span-1 md:row-start-5 md:col-start-1 md:col-span-1 rounded-full bg-[#F1F1F1]">
           <p className="text-black flex text-center justify-center md:text-4xl text-xl font-normal">
             2
           </p>
@@ -61,7 +61,7 @@ const AuditServicesInnerPage = () => {
           </p>
         </div>
 
-        <div className="row-start-10 col-start-1 h-20 w-20 col-span-1 md:row-start-6 md:col-start-1 md:col-span-1 flex items-center justify-center rounded-full bg-[#F1F1F1]">
+        <div className="row-start-10 col-start-1 h-16 w-16 col-span-1 md:row-start-6 md:col-start-1 md:col-span-1 flex items-center justify-center rounded-full bg-[#F1F1F1]">
           <p className="text-black flex text-center justify-center md:text-4xl text-xl font-normal">
             3
           </p>

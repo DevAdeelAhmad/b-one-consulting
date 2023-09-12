@@ -31,7 +31,7 @@ const ServicesModalContent: React.FC<ServicesModalContentProps> = ({ onClose }) 
   };
 
   return (
-    <div className="absolute left-0 right-0 w-[105%] md:w-[100%] bottom-0 h-[90vh] z-50 rounded-xl border-2 border-textSecondary
+    <div className="absolute left-0 right-0 w-[105%] md:w-[100%] bottom-[-1px] h-[90vh] z-50 rounded-3xl border border-textSecondary
     overflow-y-hidden overflow-x-hidden flex justify-center items-center bg-black">
       <div className="flex justify-center items-center">
         <div className={`bg-black  ${activeTab != "" ? 'modalbg1' : 'modalbg'} rounded-xl
@@ -70,9 +70,9 @@ const ServicesModalContent: React.FC<ServicesModalContentProps> = ({ onClose }) 
             </ul>
           </div>
           <div className="absolute top-0 overflow-y-auto">{getContentComponent()}</div>
-          <div className="flex items-center justify-end absolute bottom-8 uppercase right-10">
-            <span className="text-lg mr-4 font-light text-white">Our Services</span>
-            <button className="text-white text-lg font-semibold uppercase" onClick={onClose}>
+          <div className="flex items-center justify-end absolute bottom-[35.5px] uppercase right-10">
+            <span className="text-sm md:text-base 2xl:text-[14px] tracking-wider mr-4 font-normal text-textPrimary">Our Services</span>
+            <button className="text-textPrimary text-sm md:text-base 2xl:text-[13px] tracking-wider font-semibold uppercase" onClick={onClose}>
               Close
             </button>
           </div>
