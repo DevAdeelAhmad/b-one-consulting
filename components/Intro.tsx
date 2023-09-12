@@ -20,10 +20,10 @@ const Intro = () => {
     >
       <div className="grid grid-cols-4 md:grid-cols-12 grid-flow-row">
         <div className="fixed z-10 items-center w-[90%] lg:w-[97%] top-4 md:top-8 md:right-14 md:left-14 fixedNav col-span-4 md:col-span-12 flex justify-evenly md:inline-grid grid-cols-4 md:grid-cols-12 gap-5">
-          <div className="col-span-2 sm:col-span-3 lg:col-span-2 col-start-1">
+          <div className="col-span-2 sm:col-span-3 lg:col-span-2 col-start-1 fixed top-7 md:top-[28px] left-2 md:left-12">
             <Link href="/">
               <Image
-                className="pt-2 md:pt-0 w-[210px]"
+                className="w-[140px] md:w-[210px]"
                 src={logo}
                 width={160}
                 height={80}
@@ -32,15 +32,15 @@ const Intro = () => {
             </Link>
           </div>
 
-          <div className="col-start-3 md:col-start-10 xl:col-start-11 col-span-1 lg:ml-10 xl:ml-0">
+          <div className="col-start-3 md:col-start-10 xl:col-start-11 col-span-1 fixed top-4 md:top-[24px] right-12">
             <button
-              className="border-[1.5px] sayhello items-center justify-center rounded-full w-40 h-9
+              className="border-[1.5px] items-center justify-center rounded-full w-32 md:w-40 h-9
             border-[#2C33D6] text-[#2C33D6] font-Prompt bg-[#2C33D6]/20 hover:bg-[#2C33D6]/50"
             >
               SAY HELLO
             </button>
           </div>
-          <div className="md:hidden col-start-5 col-span-1">
+          <div className="md:hidden col-start-5 col-span-1 fixed top-[14px] right-1">
             <button onClick={handleMenuToggle}>
               {menuOpen ? (
                 <svg
@@ -103,7 +103,7 @@ const Intro = () => {
               </h1>
             </div>
             <div className="herotext col-span-10 lg:col-span-9 lg:col-start-4 xl:col-start-[-12] row-span-1 row-start-2">
-              <h1 className="text-5xl md:text-6xl xl:text-[75px] 3xl:text-[100px] uppercase font-Titillium text-textPrimary text-left md:text-right font-[300]">
+              <h1 className="text-5xl md:text-6xl xl:text-[75px] 3xl:text-[100px] uppercase font-Titillium text-textPrimary text-right font-[300]">
                 {`Let's Reach your goals!`}
               </h1>
             </div>
@@ -111,7 +111,7 @@ const Intro = () => {
               className="col-span-3 py-5 lg:py-1 lg:pt-4 xl:pt-5 lg:col-span-6 text-left
             lg:text-right lg:col-start-[7] xl:col-start-5 row-span-1 row-start-3"
             >
-              <p className="text-xs xl:text-lg text-textPrimary text-left md:text-right font-Prompt tracking-widest">
+              <p className="text-xs xl:text-lg text-textPrimary text-right font-Prompt tracking-widest">
                 Quanta autem vis amicitiae sit, ex hoc intellegi maxime
               </p>
             </div>
