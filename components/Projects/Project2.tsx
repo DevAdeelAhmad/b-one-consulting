@@ -6,7 +6,7 @@ import ProjectsModal from "@/components/ProjectsModal/ProjectsModal";
 
 const Project2 = () => {
   return (
-    <section className="w-full bg-[#101010] text-textPrimary text-sm pb-10 pt-4 px-12">
+    <section className="w-full bg-[#101010] text-textPrimary text-sm pb-10 pt-4 px-4 sm:px-12">
       <div className="w-full grid grid-cols-4 grid-rows-1 md:gap-y-16 md:grid-cols-12 md:grid-flow-row pb-20">
         <div className="col-start-1 col-span-4 md:col-span-5 md:col-start-2 md:row-start-1 font-textFamily flex flex-col justify-center">
           <h1 className="font-light uppercase font-Titillium text-[45px] pt-20 md:pt-0">
