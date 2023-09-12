@@ -120,7 +120,7 @@ const Clients = () => {
               <Image
                 className="ml-2"
                 src={google}
-                alt="Client Image"
+                alt="Client"
                 width={155}
                 height={155}
               />
