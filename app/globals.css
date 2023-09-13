@@ -83,19 +83,6 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
-  /* .about21 {
-    background: url(../assets/bg/About2.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: center center;
-  } */
-  /* .about-21 {
-    background: url(../assets/bg/About2.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 300%;
-  } */
 }
 @media only screen and (min-width: 641px) {
   .about1 {
@@ -115,16 +102,6 @@
   .about-3 {
     background: #101010;
   }
-  /* .about21 {
-    background: url(../assets/bg/About2.svg);
-    background-color: #101010;
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 140%;
-  }
-  .about-21 {
-    background: #101010;
-  } */
 }
 
 @media only screen and (min-width: 1700px) {
@@ -275,7 +252,21 @@
     margin-top: 1rem;
   }
 }
-
-@media only screen and (min-width: 1280px) and (max-width: 1300px) {
-
-}
+@media only screen and (min-width: 641px) and (max-width: 767px) {
+  .about-3 {
+    background: url(../assets/bg/About3.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+  }
+  }
+@media only screen and (min-width: 310px) and (max-width: 400px) {
+  .about-3 {
+    background: url(../assets/bg/About3.svg);
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 90%;
+  }
+  }

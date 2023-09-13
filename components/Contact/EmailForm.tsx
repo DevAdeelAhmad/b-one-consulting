@@ -11,7 +11,7 @@ const EmailForm = () => {
               Get in <br className="block xl:hidden"/>touch
             </h1>
           </div>
-          <div className="col-span-0 xl:col-start-9 2xl:col-start-8 md:col-span-4 row-start-1 mt-9 lg:mt-10 xl:mt-20 2xl:mt-20 hidden xl:grid">
+          <div className="col-span-0 xl:col-start-9 2xl:col-start-8 md:col-span-4 row-start-1 mt-9 2xl:mt-20 hidden 2xl:grid">
             <p className="uppercase text-[25px]">
               <span className="text-md font-Prompt font-textFamily">
                 tell us more &emsp;
@@ -119,9 +119,9 @@ const EmailForm = () => {
                 />
               </div>
             </div>
-            <div className="row-start-4">
+            <div className="row-start-4 md:row-start-3 col-start-2 md:col-start-1">
               <button
-                className="border-[1.5px] sayhello items-center justify-center rounded-2xl w-36 h-8
+                className="border-[1.5px] items-center justify-center rounded-2xl w-36 h-8
             border-[#2C33D6] text-[#2C33D6] font-Prompt bg-[#2C33D6]/20 hover:bg-[#2C33D6]/50"
               >
                 SUBMIT

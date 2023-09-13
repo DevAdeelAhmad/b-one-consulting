@@ -63,7 +63,7 @@ const ProjectsModal = () => {
     <section
       className={`${
         activeSection === "Projects"
-          ? "fixed w-screen bottom-10 h-16 md:h-24 inline-grid grid-cols-4 md:grid-cols-12 grid-rows-1 ml-2 sm:ml-12 md:ml-0"
+          ? "fixed w-screen bottom-10 z-[20] h-16 md:h-24 inline-grid grid-cols-4 md:grid-cols-12 grid-rows-1 ml-[8px] sm:ml-12 md:ml-0"
           : "hidden"
       }`}
     >

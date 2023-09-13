@@ -61,13 +61,12 @@ const ServicesModal = () => {
 
   return (
     <section
-      className={`${
-        activeSection === "Services"
-          ? "fixed w-screen bottom-10 left-6 sm:left-10 h-16 md:h-24 inline-grid grid-cols-4 md:grid-cols-12 grid-rows-1"
+      className={`${activeSection === "Services"
+          ? "fixed w-screen bottom-10 left-6 sm:left-24 xl:left-[47px] h-16 md:h-24 inline-grid grid-cols-4 md:grid-cols-12 grid-rows-1"
           : "hidden"
-      }`}
+        }`}
     >
-      <div className="section-with-modal w-[87%] relative h-full col-start-1 md:w-10/12 col-span-4 md:col-span-9 md:col-start-3 ">
+      <div className="section-with-modal w-[87%] sm:w-[72%] relative h-full col-start-1 md:w-10/12 col-span-4 md:col-span-9 md:col-start-3 ">
         {!isModalOpen && (
           <div
             className="w-full bg-black/80 flex items-center h-full justify-end pr-10 rounded-3xl border text-right border-textSecondary"

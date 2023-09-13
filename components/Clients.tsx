@@ -44,10 +44,10 @@ const Clients = () => {
           className="w-full col-span-4 row-span-1 col-start-1 md:col-start-2 md:col-span-10 md:row-span-1
         inline-grid md:grid-cols-12 md:grid-rows-1"
         >
-          <h1 className="col-span-4 md:col-span-5 font-light text-[45px] uppercase font-Titillium">
+          <h1 className="col-span-4 md:col-span-5 font-normal leading-[40px] text-[45px] uppercase font-Titillium">
             Clients & Partners
           </h1>
-          <p className="col-span-4 md:col-span-5 lg:col-span-5 md:row-span-1 text-justify text-[18px] font-extralight font-Prompt">
+          <p className="col-span-4 md:col-span-5 lg:col-span-5 md:row-span-1 lg:text-justify text-[18px] font-light font-Prompt mt-6 md:mt-0">
             The customer remains at the center of our concerns, becoming an
             actor of his success is our goal.
           </p>
@@ -60,8 +60,7 @@ const Clients = () => {
         <div className="col-start-1 col-span-4 row-span-3 inline-grid grid-rows-3 md:row-span-1 md:col-start-2 md:col-span-12 md:grid-cols-12 md:grid-rows-1">
           <div
             className="col-span-4 row-span-3 md:row-span-1 grid-cols-3 inline-grid md:col-start-2
-          md:col-span-10 md:grid-cols-9 grid-rows-3 md:grid-rows-1 gap-y-10 gap-x-5 xl:gap-x-8 2xl:gap-x-10"
-          >
+          md:col-span-10 md:grid-cols-9 grid-rows-3 md:grid-rows-1 gap-y-10 gap-x-5 xl:gap-x-8 2xl:gap-x-10">
             <div className="mt-9">
               <Image
                 src={Airfrance}

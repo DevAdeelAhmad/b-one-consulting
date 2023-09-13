@@ -19,19 +19,19 @@ const SingleCard = ({ text, desc }: ISingleCardProps) => {
 const About1 = () => {
   return (
     <section className="w-full h-[100vh] text-textPrimary flex flex-col justify-center text-sm py-14 px-0 sm:px-2 md:px-12">
-      <div className="grid grid-cols-4 md:grid-cols-12 grid-rows-2 md:grid-flow-row md:gap-y-5">
+      <div className="grid grid-cols-4 md:grid-cols-12 grid-rows-2 md:grid-flow-row md:gap-y-2">
         <div className="col-span-4 md:col-span-6 row-start-1 row-span-2 col-start-1 flex md:items-center md:justify-center">
           <Image className="w-full xl:h-[60vh] xl:w-[60vh]" src={About1Img} alt="About 4 Image" width={400} height={400} />
         </div>
-        <div className="col-span-4 col-start-1 row-start-1 row-span-1 md:col-start-8 
+        <div className="col-span-4 col-start-1 row-start-1 row-span-1 md:col-start-7 
         flex flex-row gap-x-0 sm:gap-x-24 md:gap-x-5 3xl:gap-x-10 justify-between items-center">
           <div><SingleCard text="+10" desc="YEARS" /></div>
           <div><SingleCard text="+1000" desc="PROJECTS" /></div>
         </div>
-        <div className="col-span-4 col-start-1 row-start-2 row-span-1 md:col-start-8
+        <div className="col-span-4 col-start-1 row-start-2 row-span-1 md:col-start-7
         flex flex-row gap-x-0 sm:gap-x-24 md:gap-x-5 3xl:gap-x-10 items-center justify-between">
           <div><SingleCard text="4" desc="CONTENT" /></div>
-          <div><SingleCard text="100%" desc="OF OUR CUSTOMER SATISFY" /></div>
+          <div><SingleCard text="100%" desc="SATISFIED COSTUMERS" /></div>
         </div>
       </div>
     </section>

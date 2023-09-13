@@ -58,7 +58,7 @@ const Services = () => {
           }
         />
         <SingleService
-        colSpan={3}
+          colSpan={3}
           colStart={3}
           colStartMd={10}
           colStartXl={9}
@@ -66,8 +66,9 @@ const Services = () => {
           title="04"
           subtitle={
             <>
-              Marketing &<br />
-              Branding
+              Marketing
+              <br />
+              & Branding
             </>
           }
         />
@@ -100,10 +101,10 @@ const SingleService = ({
     };
   }, []);
   const containerStyles = `col-span-${colSpan} md:col-span-2 xl:col-span-2 col-start-${colStart} md:col-start-${colStartMd} xl:col-start-${colStartXl} h-${height} flex flex-col justify-between border-l border-solid border-textPrimary`;
-  const titleStyles = `text-5xl lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium ${title === "01" && windowSize[0] < 500 ? "pb-4" : "pb-10"
+  const titleStyles = `text-[90px] lg:text-6xl xl:text-[70px] 2xl:text-[100px] font-Titillium ${title === "01" && windowSize[0] < 500 ? "pb-4" : "pb-10"
     } lg:pb-2 xl:pb-0`;
   const subtitleStyles =
-    "font-textFamily text-base md:text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl";
+    "font-textFamily text-[18px] md:text-lg lg:text-xl font-Prompt uppercase xl:text-sm 2xl:text-xl";
 
   return (
     <div

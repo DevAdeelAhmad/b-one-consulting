@@ -71,7 +71,7 @@ const Intro = () => {
 
         <div
           className={`${menuOpen ? "block" : "hidden"
-            } md:hidden fixed inset-0 bg-[#101010]`}
+            } md:hidden fixed inset-0 z-[14] bg-[#101010]`}
         >
           <div className="flex flex-col justify-top h-full items-end py-10 pr-5 space-y-6 mt-10">
             <Link href="#Introduction" onClick={handleMenuToggle}>
@@ -103,7 +103,7 @@ const Intro = () => {
               </h1>
             </div>
             <div className="herotext col-span-10 lg:col-span-9 lg:col-start-4 xl:col-start-[-12] row-span-1 row-start-2">
-              <h1 className="text-5xl md:text-6xl xl:text-[75px] 3xl:text-[100px] uppercase font-Titillium text-textPrimary text-right font-[300]">
+              <h1 className="text-5xl md:text-6xl xl:text-[75px] 3xl:text-[100px] uppercase font-Titillium text-textPrimary text-left md:text-right font-[300]">
                 {`Let's Reach your goals!`}
               </h1>
             </div>
@@ -111,7 +111,7 @@ const Intro = () => {
               className="col-span-3 py-5 lg:py-1 lg:pt-4 xl:pt-5 lg:col-span-6 text-left
             lg:text-right lg:col-start-[7] xl:col-start-5 row-span-1 row-start-3"
             >
-              <p className="text-xs xl:text-lg text-textPrimary text-right font-Prompt tracking-widest">
+              <p className="text-xs xl:text-lg text-textPrimary text-left md:text-right font-Prompt tracking-widest">
                 Quanta autem vis amicitiae sit, ex hoc intellegi maxime
               </p>
             </div>
